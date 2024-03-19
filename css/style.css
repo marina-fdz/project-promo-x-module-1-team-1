@@ -7,6 +7,25 @@
   box-sizing: border-box;
 }
 
+nav{
+    background-color: var(--secundary-color);
+}
+
+.title{
+    font-size: 24px;
+    text-align: center;
+    background-color: var(--main-color);
+    color: white;
+    padding: 15px;
+}
+
+.menu-list{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 8px;
+}
+
 .fortalezas-debilidades {
   display: flex;
   flex-direction: column;
