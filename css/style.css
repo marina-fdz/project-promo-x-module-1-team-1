@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
     
 }
@@ -19,7 +18,7 @@
     line-height: 2.05;
     letter-spacing: normal;
     text-align: center;
-    color ;
+    color: var(--main-color);
 }
 .texto-fortalezas{
     height: 192px;
@@ -34,9 +33,8 @@
     text-align: center;
     color: #54585a;
 }
-=======
+
 :root{
     --main-color: #099d8d;
     --secundary-color: #14d9c4;
 }
->>>>>>> e94fd46f7deb59400671c688fb363d4c5ce81c6d
