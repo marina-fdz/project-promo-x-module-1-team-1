@@ -1,42 +1,64 @@
-:root{
-    --main-color: #099d8d;
-    --secundary-color: #14d9c4;
+:root {
+  --main-color: #099d8d;
+  --secundary-color: #14d9c4;
 }
 
-
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-.fortalezas-debilidades{
-    display: flex;
-    flex-direction: column;
-    background-color: #b8b8b9;
-    opacity: 0.2;
+.fortalezas-debilidades {
+  display: flex;
+  flex-direction: column;
+  background-color: #b8b8b9;
+  opacity: 0.2;
 }
-.titulo-fortalezas{
-    height: 45px;
-    font-size: 22px;
-    font-family: Rubik;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.05;
-    letter-spacing: normal;
-    text-align: center;
-    color: var(--main-color);
+.titulo-fortalezas {
+  height: 45px;
+  font-size: 22px;
+  font-family: Rubik;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.05;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--main-color);
 }
-.texto-fortalezas{
-    height: 192px;
-    margin: 45px 0 30px;
-    font-family: OpenSans;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-     line-height: 1.5;
-    letter-spacing: normal;
-    text-align: center;
-    color: #54585a;
+.texto-fortalezas {
+  height: 192px;
+  margin: 45px 0 30px;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #54585a;
 }
 
+.eslogan {
+  background-color: white;
+  font-weight: 700;
+}
+.equipo-titulo {
+  color: #14d9c4;
+  font-size: 24px;
+  text-align: center;
+  line-height: 45px;
+}
+.equipo-parrafo {
+  color: #54585a;
+  size: 16px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.equipo-parrafo {
+  color: #54585a;
+  size: 16px;
+  text-align: center;
+  line-height: 24px;
+}
