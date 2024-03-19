@@ -1,3 +1,35 @@
 *{
     
 }
+
+.fortalezas-debilidades{
+    display: flex;
+    flex-direction: column;
+    background-color: #b8b8b9;
+    opacity: 0.2;
+}
+.titulo-fortalezas{
+    height: 45px;
+    font-size: 22px;
+    font-family: Rubik;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.05;
+    letter-spacing: normal;
+    text-align: center;
+    color ;
+}
+.texto-fortalezas{
+    height: 192px;
+    margin: 45px 0 30px;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+     line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #54585a;
+}
