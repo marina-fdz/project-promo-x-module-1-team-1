@@ -1,5 +1,11 @@
+:root{
+    --main-color: #099d8d;
+    --secundary-color: #14d9c4;
+}
+
+
 *{
-    
+    box-sizing: border-box;
 }
 
 .fortalezas-debilidades{
@@ -34,7 +40,3 @@
     color: #54585a;
 }
 
-:root{
-    --main-color: #099d8d;
-    --secundary-color: #14d9c4;
-}
