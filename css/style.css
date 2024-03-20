@@ -81,3 +81,39 @@ nav{
   text-align: center;
   line-height: 24px;
 }
+
+/*QUIENES SOMOS*/
+
+.quienes__somos{
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  
+}
+
+.quienes__somos--title{
+  text-align: center;
+  padding: 20px;
+}
+
+.quienes__somos--art{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100vw;
+  gap:20px;
+  
+
+}
+.quienes__somos--image{
+  width: 200px;
+  height: 200px;
+}
+
+.quienes__somos--text{
+  text-align: justify;
+  
+}
