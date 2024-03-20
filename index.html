@@ -4,25 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Sisters en código</title>
   </head>
   <body>
-    <header>
-      <h1 class="title">Sisters en código</h1>
+    <header class="header">
+      <h1 class="title">SISTERS EN CÓDIGO</h1>
       <nav class="menu">
         <ul class="menu-list">
-          <li>Equipo</li>
-          <li>Quienes somos</li>
-          <li>Contacto</li>
+          <li>EQUIPO</li>
+          <li>QUIENES SOMOS</li>
+          <li>CONTACTO</li>
         </ul>
       </nav>
     </header>
     <main>
       <section>
         <!--Imagen y eslogan-->
-        <img src="./images/hero-img.png" alt="hero-img" />
+
+        <!-- Soy Marina, voy a comentar la línea de la imagen porque se sale del view width y rompe el css de todo el proyecto. Como es una imagen de fondo creo que lo mejor es que crees un div contenedor de la imagen y la imagen la metas en css. Por supuesto, puedes hacerlo como prefieras, perdon por entrometerme -->
+
+        <!-- <img src="./images/hero-img.png" alt="hero-img" /> -->
         <p class="eslogan">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, atque
           incidunt excepturi, ducimus in exercitationem quia sint possimus
@@ -50,20 +60,20 @@
         </article>
       </section>
 
-      <section class="fortalezas-debilidades">
+      <section class="section">
         <!--Fortalezas y debilidades-->
-        <article class="fortalezas">
-          <h2 class="titulo-fortalezas">Fortalezas</h2>
-          <p class="texto-fortalezas">
+        <article class="section__fortalezas">
+          <h2 class="section__fortalezas-titulo">Fortalezas</h2>
+          <p class="section__fortalezas-texto">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
             necessitatibus hic quo eaque! Quisquam dignissimos architecto autem
             quod, eaque totam temporibus? Alias, tenetur reiciendis. Itaque ad
             totam possimus a officia?
           </p>
         </article>
-        <article class="debilidades">
-          <h2 class="titulo-debilidades">Debilidades</h2>
-          <p class="texto-debilidades">
+        <article class="section__debilidades">
+          <h2 class="section__debilidades-titulo">Debilidades</h2>
+          <p class="section__debilidades-texto">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quasi
             vel adipisci magni saepe laboriosam sapiente consectetur dicta culpa
             voluptas debitis, facere suscipit natus laborum esse. Iure veritatis
@@ -108,17 +118,18 @@
         </article>
       </section>
     </main>
-    <footer class="footer-container">
-      <h4 class="footer_copyright">Sisters en código © 2024</h4>
-      <nav class="footer_menu-container">
-        <ul class="footer_menu">
-          <li class="footer_menu-item"><a href="#">EQUIPO</a></li>
-          <li class="footer_menu-item"><a href="#">QUIÉNES SOMOS</a></li>
-          <li class="footer_menu-item"><a href="#">CONTACTO</a></li>
+    <!--Footer-->
+    <footer class="footer__container">
+      <h4 class="footer__copyright">Sisters en código © 2024</h4>
+      <nav class="footer__menu-container">
+        <ul class="footer__menu">
+          <li class="footer__menu-item"><a href="#">EQUIPO</a></li>
+          <li class="footer__menu-item"><a href="#">QUIÉNES SOMOS</a></li>
+          <li class="footer__menu-item"><a href="#">CONTACTO</a></li>
         </ul>
       </nav>
-      <div class="footer_logo">
-        <img src="./images/logo-adalab.png" alt="Logotipo de Adalab." />
+      <div class="footer__logo">
+        <img src="./images/logo-adalab.png" alt="Logotipo de Adalab.">
       </div>
     </footer>
   </body>
