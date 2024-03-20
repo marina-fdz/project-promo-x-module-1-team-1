@@ -6,9 +6,11 @@
   --Gris-fondo: #f1f1f1;
   --Blanco: #ffffff;
   --Negro: #000000;
-  font-family: "Open Sans", sans-serif;
+  --font-family: "Open Sans", sans-serif;
 }
-
+html:{
+  font-size:62.5%;
+}
 * {
   box-sizing: border-box;
 }
@@ -34,16 +36,17 @@ nav{
     padding: 8px;
 }
 
-.fortalezas-debilidades {
+.section {
   display: flex;
   flex-direction: column;
-  background-color: #f1f1f1;
-  /* opacity: 0.2; */
+  background-color: var(--Gris-fondo);
+  gap: 2rem;
+  padding:2rem;
 }
-.titulo-fortalezas {
-  height: 45px;
-  font-size: 22px;
-  font-family: Rubik;
+.section__fortalezas-titulo {
+  height: 4.5rem;
+  font-size: 2.2rem;
+  font-family: "Rubik", sans-serif;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -52,11 +55,36 @@ nav{
   text-align: center;
   color: var(--main-color);
 }
-.texto-fortalezas {
-  height: 192px;
-  margin: 45px 0 30px;
-  font-family: OpenSans;
-  font-size: 16px;
+.section__fortalezas-texto {
+  height: 19.2rem;
+  font-family:var(--font-family);
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #54585a;
+}
+
+.section__debilidades-titulo{
+  height: 4.5rem;
+  font-size: 2.2rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.05;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.section__debilidades-texto{
+  height: 19.2rem;
+  font-family:var(--font-family);
+  font-size: 1.6rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -111,4 +139,9 @@ nav{
     margin-left: 45px;
     font-size: 15px;
   }
+
+  .section {
+    display: flex;
+    flex-direction: row;
+  
 }
