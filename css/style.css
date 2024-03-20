@@ -1,6 +1,12 @@
 :root {
   --main-color: #099d8d;
   --secundary-color: #14d9c4;
+  --Gris-oscuro: #54585a;
+  --Gris-claro: #b8b8b9;
+  --Gris-fondo: #f1f1f1;
+  --Blanco: #ffffff;
+  --Negro: #000000;
+  font-family: "Open Sans", sans-serif;
 }
 
 * {
