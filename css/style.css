@@ -8,7 +8,7 @@
   --Negro: #000000;
   --font-family: "Open Sans", sans-serif;
 }
-html:{
+html{
   font-size: 62.5%;
 }
 * {
@@ -118,6 +118,113 @@ nav{
   line-height: 24px;
 }
 
+
+
+/*QUIENES SOMOS*/
+
+
+.quienes__somos{
+  background-color: var(--Blanco);
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  margin-bottom: 3rem;
+}
+
+.quienes__somos--title{
+  color: var(--main-color);
+  font-family: var(--font-family);
+  text-align: center;
+  padding: 4rem;
+  font-size: 3.5rem;
+  font-weight: 700;
+  width: 100vw;
+}
+
+.quienes__somos--art--izq{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem;
+  width: 100vw;
+  gap:2rem;
+}
+
+.quienes__somos--art--dcha{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem;
+  width: 100vw;
+  gap:2rem;
+}
+
+.quienes__somos--image{
+  width: 275px;
+  height: 275px;
+  border: 0.7rem solid var(--Gris-fondo);
+  border-radius: 5%;
+}
+
+.quienes__somos--name--izq{
+  font-family: var(--font-family);
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding: 2rem;
+}
+
+.quienes__somos--name--dcha{
+  font-family: var(--font-family);
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding: 2rem;
+}
+
+
+.quienes__somos--text--izq{
+  font-family: var(--font-family);
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: var(--Gris-oscuro);
+}
+
+.quienes__somos--text--dcha{
+  font-family: var(--font-family);
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: var(--Gris-oscuro);
+}
+
+.quienes__somos--media--izq{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+
+.quienes__somos--media--dcha{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.quienes__somos--icon{
+  width: 2rem;
+  height: 2rem;
+}
+
 /* footer */
 
 .footer__container{
@@ -192,6 +299,45 @@ nav{
     display: flex;
     flex-direction: row;
   
+}
+
+}
+
+@media (min-width: 1024px){
+.quienes__somos--art--izq{
+    /*display: grid;
+    grid-template-columns: 1fr 2fr;*/
+    display: flex;
+    flex-direction: row;
+
+    align-content: left;
+    padding: 4rem;
+}
+.quienes__somos--name--izq, .quienes__somos--text--izq {
+  text-align: left;
+  padding: 1rem;
+}
+
+.quienes__somos--media--izq{
+  justify-content: left;
+  align-items: left;
+  padding: 1rem;
+}
+
+.quienes__somos--art--dcha{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.quienes__somos--name--dcha, .quienes__somos--text--dcha{
+  text-align: right;
+  padding: 1rem;
+}
+
+.quienes__somos--media--dcha{
+  justify-content: right;
+  align-items: right;
+  padding: 1rem;
 }
 
 }
