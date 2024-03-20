@@ -305,11 +305,8 @@ nav{
 
 @media (min-width: 1024px){
 .quienes__somos--art--izq{
-    /*display: grid;
-    grid-template-columns: 1fr 2fr;*/
     display: flex;
     flex-direction: row;
-
     align-content: left;
     padding: 4rem;
 }
