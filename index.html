@@ -5,11 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
 
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -28,11 +34,11 @@
     </header>
     <main>
       <section>
-        <!--Imagen y eslogan-->
+        <!-- Imagen y eslogan-->
 
         <!-- Soy Marina, voy a comentar la línea de la imagen porque se sale del view width y rompe el css de todo el proyecto. Como es una imagen de fondo creo que lo mejor es que crees un div contenedor de la imagen y la imagen la metas en css. Por supuesto, puedes hacerlo como prefieras, perdon por entrometerme -->
 
-        <!-- <img src="./images/hero-img.png" alt="hero-img" /> -->
+        <div class="banner"></div>
         <p class="eslogan">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, atque
           incidunt excepturi, ducimus in exercitationem quia sint possimus
@@ -83,158 +89,198 @@
       </section>
 
       <section class="quienes__somos">
-
-        
-
         <h2 class="quienes__somos--title">QUIÉNES SOMOS</h2>
-        
-           <article class="quienes__somos--art--izq">
 
-             <div>
-               <img class="quienes__somos--image" src="/images/lucia-delafuente_1040px.jpg">
-             </div>
+        <article class="quienes__somos--art--izq">
+          <div>
+            <img
+              class="quienes__somos--image"
+              src="/images/lucia-delafuente_1040px.jpg"
+            />
+          </div>
 
-             <div>
+          <div>
+            <div class="quienes__somos--name--izq">
+              <h3>Lucía de la Fuente</h3>
+            </div>
 
-               <div class="quienes__somos--name--izq"> 
-                  <h3>Lucía de la Fuente</h3>
-               </div>
+            <div class="quienes__somos--text--izq">
+              <p>
+                Soy Lucía, madrileña y amante de la música. Soy maestra de
+                Educación Primaria de vocación, pero en búsqueda de una
+                estabilidad laboral y de una buena conciliación familiar, me he
+                lanzado a dar un giro a mi vida adentrándome muy ilusionada en
+                el mundo de la Programación Web.
+              </p>
+            </div>
 
-                <div class="quienes__somos--text--izq">
-                  <p>Soy Lucía, madrileña y amante de la música. Soy maestra de Educación Primaria de vocación, pero en búsqueda de una estabilidad laboral y de una buena conciliación familiar, me he lanzado a dar un giro a mi vida adentrándome muy ilusionada en el mundo de la Programación Web.</p>
-                </div>
+            <div class="quienes__somos--media--izq">
+              <img class="quienes__somos--icon" src="/images/twitter.png" />
+              <span>・</span>
+              <img class="quienes__somos--icon" src="/images/linkedin.png" />
+              <span>・</span>
+              <img
+                class="quienes__somos--icon"
+                src="/images/github-character.png"
+              />
+              <span>・</span>
+              <img class="quienes__somos--icon" src="/images/email.png" />
+            </div>
+          </div>
+        </article>
 
-                <div class="quienes__somos--media--izq">
-                
-                  <img class="quienes__somos--icon" src="/images/twitter.png">
-                  <span>・</span>
-                  <img class="quienes__somos--icon" src="/images/linkedin.png">
-                  <span>・</span>
-                  <img class="quienes__somos--icon" src="/images/github-character.png">
-                  <span>・</span>
-                  <img class="quienes__somos--icon" src="/images/email.png">
-               </div>
+        <article class="quienes__somos--art--dcha">
+          <div>
+            <img class="quienes__somos--image" src="/images/Aroa_360px.jpg" />
+          </div>
 
-              </div>
-            </article>
+          <div>
+            <div class="quienes__somos--name--dcha">
+              <h3>Aroa Pavón</h3>
+            </div>
 
+            <div class="quienes__somos--text--dcha">
+              <p>
+                Aroa Pavón, de profesión resumida administrativa. Dicen que
+                quien no arriesga no gana y que para encontrar cambios hay que
+                caminar diferente. Es por este motivo que he decidido confiar en
+                este bootcamp a pesar de que la incertidumbre y la falta de
+                conocimientos son un reto cada día. Me motivan las ganas de
+                crear un futuro profesional desde una perspectiva totalmente
+                distinta.
+              </p>
+            </div>
 
+            <div class="quienes__somos--media--dcha">
+              <img class="quienes__somos--icon" src="/images/twitter.png" />
+              <span>・</span>
+              <img class="quienes__somos--icon" src="/images/linkedin.png" />
+              <span>・</span>
+              <img
+                class="quienes__somos--icon"
+                src="/images/github-character.png"
+              />
+              <span>・</span>
+              <img class="quienes__somos--icon" src="/images/email.png" />
+            </div>
+          </div>
+        </article>
 
-            <article class="quienes__somos--art--dcha">
-                <div>
-                  <img class="quienes__somos--image" src="/images/Aroa_360px.jpg">
-                </div>
+        <article class="quienes__somos--art--izq">
+          <div>
+            <img class="quienes__somos--image" src="/images/valenovalles.jpg" />
+          </div>
 
-                <div>
- 
-                <div class="quienes__somos--name--dcha"> 
-                  <h3>Aroa Pavón</h3>
-                </div>
- 
-                <div class="quienes__somos--text--dcha">
-                 <p>Aroa Pavón, de profesión resumida administrativa. Dicen que quien no arriesga no gana y que para encontrar cambios hay que caminar diferente. Es por este motivo que he decidido confiar en este bootcamp a pesar de que la incertidumbre y la falta de conocimientos son un reto cada día. Me motivan las ganas de crear un futuro profesional desde una perspectiva totalmente distinta.</p>
-                </div>
- 
-                <div class="quienes__somos--media--dcha">
-                 
-                 <img class="quienes__somos--icon" src="/images/twitter.png">
-                 <span>・</span>
-                 <img class="quienes__somos--icon" src="/images/linkedin.png">
-                 <span>・</span>
-                 <img class="quienes__somos--icon" src="/images/github-character.png">
-                 <span>・</span>
-                 <img class="quienes__somos--icon" src="/images/email.png">
-                </div>
+          <div>
+            <div class="quienes__somos--name--izq">
+              <h3>Valentina Ovalles</h3>
+            </div>
 
-                </div>
-             </article>   
+            <div class="quienes__somos--text--izq">
+              <p>
+                Soy Valentina, de Venezuela y viviendo en España desde hace 10
+                años. Periodista, marketiniana y crossfit amateur. La maternidad
+                me ha regalado un montón de superpoderes, entre ellos el de
+                reinventarme. Aquí estoy apostando al sector tech para cambiar
+                la vida laboral por una más 'friendly' con este nuevo rol de
+                mamá.
+              </p>
+            </div>
 
-             <article class="quienes__somos--art--izq">
-                <div>
-                 <img class="quienes__somos--image" src="/images/valenovalles.jpg">
-                </div>
+            <div class="quienes__somos--media--izq">
+              <img class="quienes__somos--icon" src="/images/twitter.png" />
+              <span>・</span>
+              <img class="quienes__somos--icon" src="/images/linkedin.png" />
+              <span>・</span>
+              <img
+                class="quienes__somos--icon"
+                src="/images/github-character.png"
+              />
+              <span>・</span>
+              <img class="quienes__somos--icon" src="/images/email.png" />
+            </div>
+          </div>
+        </article>
 
-                <div>
- 
-                <div class="quienes__somos--name--izq"> 
-                 <h3>Valentina Ovalles</h3>
-                </div>
- 
-                <div class="quienes__somos--text--izq">
-                 <p>Soy Valentina, de Venezuela y viviendo en España desde hace 10 años.
-                  Periodista, marketiniana y crossfit amateur. La maternidad me ha regalado un montón de superpoderes, entre ellos el de reinventarme. Aquí estoy apostando al sector tech para cambiar la vida laboral por una más 'friendly' con este nuevo rol de mamá.</p>
-                </div>
- 
-                <div class="quienes__somos--media--izq">
-                 <img class="quienes__somos--icon" src="/images/twitter.png">
-                 <span>・</span>
-                 <img class="quienes__somos--icon" src="/images/linkedin.png">
-                 <span>・</span>
-                 <img class="quienes__somos--icon" src="/images/github-character.png">
-                 <span>・</span>
-                 <img class="quienes__somos--icon" src="/images/email.png">
-                </div>
+        <article class="quienes__somos--art--dcha">
+          <div>
+            <img
+              class="quienes__somos--image"
+              src="/images/Lucia-lacort_672px.jpg"
+            />
+          </div>
 
-                </div>
-             </article>
+          <div>
+            <div class="quienes__somos--name--dcha">
+              <h3>Lucía Lacort</h3>
+            </div>
 
-             <article class="quienes__somos--art--dcha">
-               <div>
-                 <img class="quienes__somos--image" src="/images/Lucia-lacort_672px.jpg">
-               </div>
+            <div class="quienes__somos--text--dcha">
+              <p>
+                Mi nombre es Lucía, soy conquense y tras muchas vueltas por
+                España me he asentado en Madrid. Me formé como educadora y
+                especialista en género, aunque los últimos 5 años he trabajado
+                cara al público en grandes firmas de lujo. Aquí he aprendido que
+                el verdadero lujo es la calidad de vida, por lo que he apostado
+                por Adalab para ser mi guía en esta nueva etapa como
+                desarrolladora.
+              </p>
+            </div>
 
-               <div>
- 
-                <div class="quienes__somos--name--dcha"> 
-                 <h3>Lucía Lacort</h3>
-                </div>
- 
-                <div class="quienes__somos--text--dcha">
-                 <p>Mi nombre es Lucía, soy conquense y tras muchas vueltas por España me he asentado en Madrid. Me formé como educadora y especialista en género, aunque los últimos 5 años he trabajado cara al público en grandes firmas de lujo. Aquí he aprendido que el verdadero lujo es la calidad de vida, por lo que he apostado por Adalab para ser mi guía en esta nueva etapa como desarrolladora.</p>
-                </div>
- 
-               <div class="quienes__somos--media--dcha">
-                 <img class="quienes__somos--icon" src="/images/twitter.png">
-                 <span>・</span>
-                 <img class="quienes__somos--icon" src="/images/linkedin.png">
-                 <span>・</span>
-                 <img class="quienes__somos--icon" src="/images/github-character.png">
-                 <span>・</span>
-                 <img class="quienes__somos--icon" src="/images/email.png">
-               </div>
+            <div class="quienes__somos--media--dcha">
+              <img class="quienes__somos--icon" src="/images/twitter.png" />
+              <span>・</span>
+              <img class="quienes__somos--icon" src="/images/linkedin.png" />
+              <span>・</span>
+              <img
+                class="quienes__somos--icon"
+                src="/images/github-character.png"
+              />
+              <span>・</span>
+              <img class="quienes__somos--icon" src="/images/email.png" />
+            </div>
+          </div>
+        </article>
 
-               </div>
-             </article>
+        <article class="quienes__somos--art--izq">
+          <div>
+            <img
+              class="quienes__somos--image"
+              src="/images/lucia-delafuente_1040px.jpg"
+            />
+          </div>
 
-             <article class="quienes__somos--art--izq">
-                <div>
-                 <img class="quienes__somos--image" src="/images/lucia-delafuente_1040px.jpg">
-                </div>
+          <div>
+            <div class="quienes__somos--name--izq">
+              <h3>Marina Fernández</h3>
+            </div>
 
-                <div>
- 
-                <div class="quienes__somos--name--izq"> 
-                 <h3>Marina Fernández</h3>
-                </div>
- 
-                <div class="quienes__somos--text--izq">
-                 <p>Soy Marina, de Sevilla aunque actualmente vivo en Alemania. Ilustradora de profesión, decidí hacer este bootcamp porque he descubierto que me entusiasma bastante la programación. También, claro, para conseguir una estabilidad salarial que me permita dedicarme sin preocupaciones a dar paseos por el campo y hacer fotos de flores.</p>
-                </div>
- 
-               <div class="quienes__somos--media--izq">
-                 <img class="quienes__somos--icon" src="/images/twitter.png">
-                 <span>・</span>
-                 <img class="quienes__somos--icon" src="/images/linkedin.png">
-                 <span>・</span>
-                 <img class="quienes__somos--icon" src="/images/github-character.png">
-                 <span>・</span>
-                 <img class="quienes__somos--icon" src="/images/email.png">
-               </div>
+            <div class="quienes__somos--text--izq">
+              <p>
+                Soy Marina, de Sevilla aunque actualmente vivo en Alemania.
+                Ilustradora de profesión, decidí hacer este bootcamp porque he
+                descubierto que me entusiasma bastante la programación. También,
+                claro, para conseguir una estabilidad salarial que me permita
+                dedicarme sin preocupaciones a dar paseos por el campo y hacer
+                fotos de flores.
+              </p>
+            </div>
 
-               </div>
-             </article>
+            <div class="quienes__somos--media--izq">
+              <img class="quienes__somos--icon" src="/images/twitter.png" />
+              <span>・</span>
+              <img class="quienes__somos--icon" src="/images/linkedin.png" />
+              <span>・</span>
+              <img
+                class="quienes__somos--icon"
+                src="/images/github-character.png"
+              />
+              <span>・</span>
+              <img class="quienes__somos--icon" src="/images/email.png" />
+            </div>
+          </div>
+        </article>
       </section>
-
     </main>
     <!--Footer-->
     <footer class="footer__container">
@@ -247,7 +293,7 @@
         </ul>
       </nav>
       <div class="footer__logo">
-        <img src="./images/logo-adalab.png" alt="Logotipo de Adalab.">
+        <img src="./images/logo-adalab.png" alt="Logotipo de Adalab." />
       </div>
     </footer>
   </body>

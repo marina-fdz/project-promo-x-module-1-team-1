@@ -8,32 +8,37 @@
   --Negro: #000000;
   --font-family: "Open Sans", sans-serif;
 }
-html{
+html {
   font-size: 62.5%;
 }
 * {
   box-sizing: border-box;
 }
 
-nav{
-    background-color: var(--secundary-color);
-} 
-
-.title{
-    font-size: 24px;
-    font-family: "Rubik", sans-serif;
-    text-align: center;
-    background-color: var(--main-color);
-    color: white;
-    padding: 15px;
+nav {
+  background-color: var(--secundary-color);
 }
 
-.menu-list{
-    display: flex;
-    justify-content: space-around;
-    color: white;
-    font-family: "Rubik", sans-serif;
-    padding: 8px;
+.title {
+  font-size: 24px;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  background-color: var(--main-color);
+  color: white;
+  padding: 15px;
+}
+
+.banner {
+  background-color: red;
+  width: 100%;
+  height: 421px;
+}
+.menu-list {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  padding: 8px;
 }
 
 .section {
@@ -41,7 +46,7 @@ nav{
   flex-direction: column;
   background-color: var(--Gris-fondo);
   gap: 2rem;
-  padding:2rem;
+  padding: 2rem;
 }
 .section__fortalezas-titulo {
   height: 4.5rem;
@@ -57,7 +62,7 @@ nav{
 }
 .section__fortalezas-texto {
   height: 19.2rem;
-  font-family:var(--font-family);
+  font-family: var(--font-family);
   font-size: 1.6rem;
   font-weight: normal;
   font-stretch: normal;
@@ -68,7 +73,7 @@ nav{
   color: #54585a;
 }
 
-.section__debilidades-titulo{
+.section__debilidades-titulo {
   height: 4.5rem;
   font-size: 2.2rem;
   font-family: "Rubik", sans-serif;
@@ -81,9 +86,9 @@ nav{
   color: var(--main-color);
 }
 
-.section__debilidades-texto{
+.section__debilidades-texto {
   height: 19.2rem;
-  font-family:var(--font-family);
+  font-family: var(--font-family);
   font-size: 1.6rem;
   font-weight: normal;
   font-stretch: normal;
@@ -97,6 +102,7 @@ nav{
 .eslogan {
   background-color: white;
   font-weight: 700;
+  font-family: var(--font-family);
 }
 .equipo-titulo {
   color: #14d9c4;
@@ -118,12 +124,9 @@ nav{
   line-height: 24px;
 }
 
-
-
 /*QUIENES SOMOS*/
 
-
-.quienes__somos{
+.quienes__somos {
   background-color: var(--Blanco);
   display: flex;
   flex-direction: column;
@@ -131,7 +134,7 @@ nav{
   margin-bottom: 3rem;
 }
 
-.quienes__somos--title{
+.quienes__somos--title {
   color: var(--main-color);
   font-family: var(--font-family);
   text-align: center;
@@ -141,34 +144,34 @@ nav{
   width: 100vw;
 }
 
-.quienes__somos--art--izq{
+.quienes__somos--art--izq {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 2.5rem;
   width: 100vw;
-  gap:2rem;
+  gap: 2rem;
 }
 
-.quienes__somos--art--dcha{
+.quienes__somos--art--dcha {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 2.5rem;
   width: 100vw;
-  gap:2rem;
+  gap: 2rem;
 }
 
-.quienes__somos--image{
+.quienes__somos--image {
   width: 275px;
   height: 275px;
   border: 0.7rem solid var(--Gris-fondo);
   border-radius: 5%;
 }
 
-.quienes__somos--name--izq{
+.quienes__somos--name--izq {
   font-family: var(--font-family);
   text-align: center;
   font-size: 2.5rem;
@@ -176,7 +179,7 @@ nav{
   padding: 2rem;
 }
 
-.quienes__somos--name--dcha{
+.quienes__somos--name--dcha {
   font-family: var(--font-family);
   text-align: center;
   font-size: 2.5rem;
@@ -184,8 +187,7 @@ nav{
   padding: 2rem;
 }
 
-
-.quienes__somos--text--izq{
+.quienes__somos--text--izq {
   font-family: var(--font-family);
   text-align: center;
   font-size: 2rem;
@@ -193,7 +195,7 @@ nav{
   color: var(--Gris-oscuro);
 }
 
-.quienes__somos--text--dcha{
+.quienes__somos--text--dcha {
   font-family: var(--font-family);
   text-align: center;
   font-size: 2rem;
@@ -201,7 +203,7 @@ nav{
   color: var(--Gris-oscuro);
 }
 
-.quienes__somos--media--izq{
+.quienes__somos--media--izq {
   display: flex;
   gap: 1rem;
   justify-content: center;
@@ -210,8 +212,7 @@ nav{
   padding-bottom: 3rem;
 }
 
-
-.quienes__somos--media--dcha{
+.quienes__somos--media--dcha {
   display: flex;
   gap: 1rem;
   justify-content: center;
@@ -220,14 +221,14 @@ nav{
   padding-bottom: 3rem;
 }
 
-.quienes__somos--icon{
+.quienes__somos--icon {
   width: 2rem;
   height: 2rem;
 }
 
 /* footer */
 
-.footer__container{
+.footer__container {
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -239,20 +240,20 @@ nav{
   font-size: 1.4rem;
 }
 
-.footer__copyright{
+.footer__copyright {
   font-family: var(--font-family);
   color: var(--Gris-claro);
 }
 
-.footer__container nav{
+.footer__container nav {
   background-color: white;
 }
 
-.footer__menu{
+.footer__menu {
   text-align: center;
 }
 
-.footer__menu-item a{
+.footer__menu-item a {
   font-family: var(--font-family);
   color: var(--Gris-oscuro);
   opacity: 0.75;
@@ -261,36 +262,35 @@ nav{
   line-height: 2rem;
 }
 
-.footer__logo{
+.footer__logo {
   width: 11.5rem;
 }
 
-.footer__logo img{
+.footer__logo img {
   object-fit: contain;
-  width: 100%; 
+  width: 100%;
 }
-
 
 /* versión tablet y desktop*/
 
-@media (width > 1000px){
-  .header{
+@media (width > 1000px) {
+  .header {
     display: flex;
     justify-content: space-between;
     background-color: var(--main-color);
   }
-  
-  nav{
+
+  nav {
     background-color: var(--main-color);
   }
-  
-  .menu-list{
+
+  .menu-list {
     gap: 20px;
     margin-right: 45px;
     font-size: 15px;
   }
-  
-  .title{
+
+  .title {
     margin-left: 45px;
     font-size: 15px;
   }
@@ -298,43 +298,42 @@ nav{
   .section {
     display: flex;
     flex-direction: row;
-  
+  }
 }
 
-}
-
-@media (min-width: 1024px){
-.quienes__somos--art--izq{
+@media (min-width: 1024px) {
+  .quienes__somos--art--izq {
     display: flex;
     flex-direction: row;
     align-content: left;
     padding: 4rem;
-}
-.quienes__somos--name--izq, .quienes__somos--text--izq {
-  text-align: left;
-  padding: 1rem;
-}
+  }
+  .quienes__somos--name--izq,
+  .quienes__somos--text--izq {
+    text-align: left;
+    padding: 1rem;
+  }
 
-.quienes__somos--media--izq{
-  justify-content: left;
-  align-items: left;
-  padding: 1rem;
-}
+  .quienes__somos--media--izq {
+    justify-content: left;
+    align-items: left;
+    padding: 1rem;
+  }
 
-.quienes__somos--art--dcha{
-  display: flex;
-  flex-direction: row-reverse;
-}
+  .quienes__somos--art--dcha {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 
-.quienes__somos--name--dcha, .quienes__somos--text--dcha{
-  text-align: right;
-  padding: 1rem;
-}
+  .quienes__somos--name--dcha,
+  .quienes__somos--text--dcha {
+    text-align: right;
+    padding: 1rem;
+  }
 
-.quienes__somos--media--dcha{
-  justify-content: right;
-  align-items: right;
-  padding: 1rem;
-}
-
+  .quienes__somos--media--dcha {
+    justify-content: right;
+    align-items: right;
+    padding: 1rem;
+  }
 }
