@@ -29,8 +29,8 @@ nav{
 .fortalezas-debilidades {
   display: flex;
   flex-direction: column;
-  background-color: #b8b8b9;
-  opacity: 0.2;
+  background-color: #f1f1f1;
+  /* opacity: 0.2; */
 }
 .titulo-fortalezas {
   height: 45px;
