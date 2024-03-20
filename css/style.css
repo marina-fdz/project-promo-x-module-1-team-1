@@ -232,7 +232,7 @@ html{
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-top: 0.1rem solid var(--Gris-oscuro);
+  border-top: 0.1rem solid var(--Gris-claro);
   padding-top: 3rem;
   padding-bottom: 4.5rem;
   gap: 2rem;
@@ -244,9 +244,6 @@ html{
   color: var(--Gris-claro);
 }
 
-.footer__container nav{
-  background-color: white;
-}
 
 .footer__menu{
   text-align: center;
@@ -300,7 +297,39 @@ html{
     display: flex;
     flex-direction: row;
   
-}
+  }
+
+  .footer__container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    gap: 0;
+  }
+
+  .footer__copyright{
+    width: 50%;
+  }
+
+  .footer__menu-container{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .footer__menu{
+    text-align: right;
+    transform: translateY(-0.5rem);
+  }
+
+  .footer__menu-item a{
+    line-height: 3rem;
+  }
+
+  .footer__logo{
+    transform: translate(-1rem, -5rem);  
+  }
 
 }
 
