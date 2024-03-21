@@ -158,7 +158,7 @@ html {
   font-family: var(--font-family);
   text-align: center;
   padding: 4rem;
-  font-size: 3.5rem;
+  font-size: 2rem;
   font-weight: 700;
   width: 100vw;
 }
@@ -209,7 +209,7 @@ html {
 .quienes__somos--text--izq {
   font-family: var(--font-family);
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.6rem;
   line-height: 1.5;
   color: var(--Gris-oscuro);
 }
@@ -217,7 +217,7 @@ html {
 .quienes__somos--text--dcha {
   font-family: var(--font-family);
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.6rem;
   line-height: 1.5;
   color: var(--Gris-oscuro);
 }
