@@ -7,6 +7,7 @@
   --Blanco: #ffffff;
   --Negro: #000000;
   --font-family: "Open Sans", sans-serif;
+  --font-size-titulo: 5rem;
 }
 html {
   font-size: 62.5%;
@@ -34,14 +35,30 @@ html {
   padding: 15px;
 }
 
+.section__banner {
+  height: 42.1rem;
+}
+
+.eslogan {
+  background-color: white;
+  font-weight: 700;
+  font-family: var(--font-family);
+  padding: 14px 15px 16px;
+  position: absolute;
+  font-size: 1.8rem;
+  width: 29rem;
+  height: 8rem;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .banner__image {
   background-image: url(../images/hero-img.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color: red;
-  padding: 40px;
-  height: 421px;
+  height: 100%;
 }
 .menu__list {
   display: flex;
@@ -113,37 +130,30 @@ html {
   color: #54585a;
 }
 
-.eslogan {
-  background-color: white;
-  font-weight: 700;
-  font-family: var(--font-family);
-  padding: 14px 15px 16px;
-  position: absolute;
-  width: 280px;
-  height: 88px;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.article__equipo__titulo {
+.article__equipo {
+  width: 100%;
+  text-align: center;
+  padding-left: 45px;
+  padding-right: 45px;
   display: flex;
   flex-direction: column;
+  padding-top: 6rem;
+  padding-bottom: 45px;
 }
 .equipo-titulo {
-  padding: 30px;
-  color: #14d9c4;
-  font-size: 24px;
-  font-weight: 500px;
-  text-align: center;
-  line-height: 45px;
-  width: 30px;
-  height: 30px;
+  color: var(--secundary-color);
+  font-family: "Rubik";
+  font-size: 2.4rem;
+  font-weight: 500;
+  padding-bottom: 2rem;
 }
 .equipo-parrafo {
   color: #54585a;
-  size: 16px;
+  font-size: 1.6rem;
   text-align: center;
-  line-height: 24px;
+  line-height: 2.4rem;
+  font-family: var(--font-family);
+  opacity: 67%;
 }
 
 .equipo-parrafo {
@@ -298,7 +308,7 @@ html {
 
 /* versión tablet y desktop*/
 
-@media (width > 1000px) {
+@media (min-width: 736px) {
   .header {
     display: flex;
     justify-content: space-between;
@@ -318,6 +328,26 @@ html {
   .title {
     margin-left: 45px;
     font-size: 1.5rem;
+  }
+
+  .section__banner {
+    height: 42.1rem;
+    position: relative;
+  }
+
+  .eslogan {
+    background-color: white;
+    font-weight: 700;
+    font-family: var(--font-family);
+    opacity: 0.8;
+    padding: 15px 30px;
+    position: absolute;
+    font-size: 1.8rem;
+    width: 440px;
+    bottom: 0;
+    left: 0;
+    /* preguntar por los ejes de la pantalla para centrar eslogan */
+    transform: translateX(-50%);
   }
 
   .section {
@@ -392,5 +422,19 @@ html {
     justify-content: right;
     align-items: right;
     padding: 1rem;
+  }
+
+  .eslogan {
+    background-color: blue;
+    font-weight: 700;
+    font-family: var(--font-family);
+    padding: 15px 30px;
+    position: absolute;
+    font-size: 1.8rem;
+    width: 29rem;
+    height: 8rem;
+    top: 10%;
+    left: 10%;
+    transform: translateX(-50%);
   }
 }
