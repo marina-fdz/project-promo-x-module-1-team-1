@@ -376,7 +376,7 @@ html {
     flex-direction: column;
   }
 
-  /*.eslogan {
+  .eslogan {
     background-color: white;
     font-weight: 700;
     font-family: var(--font-family);
@@ -385,9 +385,9 @@ html {
     position: relative;
     font-size: 1.8rem;
     width: 440px;
-    /* preguntar por los ejes de la pantalla para centrar eslogan 
+    preguntar por los ejes de la pantalla para centrar eslogan 
     transform: translateX(-50%);
-  }*/
+  } 
 
   .section {
     display: flex;
