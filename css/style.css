@@ -166,10 +166,18 @@ html {
   color: var(--main-color);
   font-family: var(--font-family);
   text-align: center;
-  padding: 4rem;
-  font-size: 2rem;
+  padding: 3rem 1.5rem;
+  font-size: 2.4rem;
   font-weight: 700;
   width: 100vw;
+  line-height: 4.5rem;
+}
+
+.quienes__somos--image {
+  width: 18rem;
+  height: 18rem;
+  border: 0.5rem solid var(--Gris-fondo);
+  border-radius: 4%;
 }
 
 .quienes__somos--art--izq {
@@ -177,7 +185,6 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2.5rem;
   width: 100vw;
   gap: 2rem;
 }
@@ -187,48 +194,50 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2.5rem;
   width: 100vw;
   gap: 2rem;
 }
 
-.quienes__somos--image {
-  width: 275px;
-  height: 275px;
-  border: 0.7rem solid var(--Gris-fondo);
-  border-radius: 5%;
-}
+
 
 .quienes__somos--name--izq {
   font-family: var(--font-family);
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 400;
-  padding: 2rem;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
 }
 
 .quienes__somos--name--dcha {
   font-family: var(--font-family);
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 400;
-  padding: 2rem;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
 }
 
 .quienes__somos--text--izq {
   font-family: var(--font-family);
   text-align: center;
   font-size: 1.6rem;
-  line-height: 1.5;
+  line-height: 2.4rem;
   color: var(--Gris-oscuro);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem;
 }
 
 .quienes__somos--text--dcha {
   font-family: var(--font-family);
   text-align: center;
   font-size: 1.6rem;
-  line-height: 1.5;
+  line-height: 2.4rem;
   color: var(--Gris-oscuro);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem;
 }
 
 .quienes__somos--media--izq {
@@ -238,6 +247,9 @@ html {
   align-items: center;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  font-size: 1.6rem;
+  
+  line-height: 3rem;
 }
 
 .quienes__somos--media--dcha {
@@ -247,12 +259,19 @@ html {
   align-items: center;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  font-size: 1.6rem;
+  
+  line-height: 3rem;
 }
 
-.quienes__somos--icon {
-  width: 2rem;
-  height: 2rem;
+.quienes__somos--media--izq a{
+  color: var(--main-color);
 }
+
+.quienes__somos--media--dcha a{
+  color: var(--main-color);
+}
+
 
 /* footer */
 
@@ -297,7 +316,7 @@ html {
 
 /* versión tablet y desktop*/
 
-@media (width > 1000px) {
+@media (min-width: 768px) {
   .header {
     display: flex;
     justify-content: space-between;
@@ -322,6 +341,49 @@ html {
   .section {
     display: flex;
     flex-direction: row;
+  }
+
+
+  .quienes__somos--image{
+    width: 20.6rem;
+    height: 20.6rem;
+  }
+
+
+   .quienes__somos--art--izq {
+    display: flex;
+    flex-direction: row;
+    align-content: left;
+    padding: 4rem;
+  }
+   .quienes__somos--name--izq,
+   .quienes__somos--text--izq {
+    text-align: left;
+    padding: 1rem;
+    }
+
+   .quienes__somos--media--izq {
+    justify-content: left;
+    align-items: left;
+    padding: 1rem;
+  }
+
+   .quienes__somos--art--dcha {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 4rem;
+  }
+
+   .quienes__somos--name--dcha,
+   .quienes__somos--text--dcha {
+    text-align: right;
+    padding: 1rem;
+  }
+
+   .quienes__somos--media--dcha {
+    justify-content: right;
+    align-items: right;
+    padding: 1rem;
   }
 
   .footer__container {
@@ -355,41 +417,6 @@ html {
   .footer__logo {
     transform: translate(-1rem, -5rem);
   }
-}
 
-@media (min-width: 1024px) {
-  .quienes__somos--art--izq {
-    display: flex;
-    flex-direction: row;
-    align-content: left;
-    padding: 4rem;
-  }
-  .quienes__somos--name--izq,
-  .quienes__somos--text--izq {
-    text-align: left;
-    padding: 1rem;
-  }
 
-  .quienes__somos--media--izq {
-    justify-content: left;
-    align-items: left;
-    padding: 1rem;
-  }
-
-  .quienes__somos--art--dcha {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-
-  .quienes__somos--name--dcha,
-  .quienes__somos--text--dcha {
-    text-align: right;
-    padding: 1rem;
-  }
-
-  .quienes__somos--media--dcha {
-    justify-content: right;
-    align-items: right;
-    padding: 1rem;
-  }
 }
