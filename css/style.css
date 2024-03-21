@@ -49,7 +49,7 @@ nav {
   flex-direction: column;
   background-color: var(--Gris-fondo);
   gap: 2rem;
-  padding: 2rem;
+  padding: 2rem; 
 }
 .section__fortalezas-titulo {
   height: 4.5rem;
