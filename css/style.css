@@ -44,6 +44,8 @@ nav {
   padding: 15px;
 }
 
+/* fortalezas y debilidades*/
+
 .section {
   display: flex;
   flex-direction: column;
@@ -64,7 +66,6 @@ nav {
   color: var(--main-color);
 }
 .section__fortalezas-texto {
-  height: 19.2rem;
   font-family: var(--font-family);
   font-size: 1.6rem;
   font-weight: normal;
@@ -90,7 +91,6 @@ nav {
 }
 
 .section__debilidades-texto {
-  height: 19.2rem;
   font-family: var(--font-family);
   font-size: 1.6rem;
   font-weight: normal;
