@@ -112,6 +112,13 @@ html {
   color: #54585a;
 }
 
+.rectangulo{
+  height: 30px;
+  width: 30px;
+  background-color:var(--Blanco);
+  position: absolute;
+  transform: translateX(180px) translateY(-45px) rotate(45deg);
+}
 .eslogan {
   background-color: white;
   font-weight: 700;
@@ -323,6 +330,10 @@ html {
     display: flex;
     flex-direction: row;
     padding: 45px 44.8px 60px 45px;
+  }
+  .rectangulo{
+  
+    transform: translateX(450px) translateY(-60px) rotate(45deg);
   }
 
   .footer__container {
