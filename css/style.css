@@ -35,6 +35,7 @@ html {
   background-size: cover;
   background-color: red;
   padding: 40px;
+  height: 421px;
 }
 .menu__list {
   display: flex;
@@ -51,7 +52,7 @@ html {
   flex-direction: column;
   background-color: var(--Gris-fondo);
   gap: 2rem;
-  padding: 2rem; 
+  padding: 2rem;
 }
 .section__fortalezas-titulo {
   height: 4.5rem;
@@ -110,6 +111,9 @@ html {
   position: absolute;
   width: 280px;
   height: 88px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .article__equipo__titulo {
   display: flex;
@@ -124,7 +128,6 @@ html {
   line-height: 45px;
   width: 30px;
   height: 30px;
-  
 }
 .equipo-parrafo {
   color: #54585a;
@@ -244,7 +247,7 @@ html {
 
 /* footer */
 
-.footer__container{
+.footer__container {
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -256,17 +259,16 @@ html {
   font-size: 1.4rem;
 }
 
-.footer__copyright{
+.footer__copyright {
   font-family: var(--font-family);
   color: var(--Gris-claro);
 }
 
-
-.footer__menu{
+.footer__menu {
   text-align: center;
 }
 
-.footer__menu-item a{
+.footer__menu-item a {
   font-family: var(--font-family);
   color: var(--Gris-oscuro);
   opacity: 0.75;
@@ -275,13 +277,13 @@ html {
   line-height: 2rem;
 }
 
-.footer__logo{
+.footer__logo {
   width: 11.5rem;
 }
 
-.footer__logo img{
+.footer__logo img {
   object-fit: contain;
-  width: 100%; 
+  width: 100%;
 }
 
 /* versión tablet y desktop*/
@@ -313,7 +315,7 @@ html {
     flex-direction: row;
   }
 
-  .footer__container{
+  .footer__container {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -322,29 +324,28 @@ html {
     gap: 0;
   }
 
-  .footer__copyright{
+  .footer__copyright {
     width: 50%;
   }
 
-  .footer__menu-container{
+  .footer__menu-container {
     width: 50%;
     display: flex;
     justify-content: flex-end;
   }
 
-  .footer__menu{
+  .footer__menu {
     text-align: right;
     transform: translateY(-0.5rem);
   }
 
-  .footer__menu-item a{
+  .footer__menu-item a {
     line-height: 3rem;
   }
-  
-  .footer__logo{
-    transform: translate(-1rem, -5rem);  
-  }
 
+  .footer__logo {
+    transform: translate(-1rem, -5rem);
+  }
 }
 
 @media (min-width: 1024px) {
