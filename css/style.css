@@ -60,11 +60,11 @@ html {
   display: flex;
   flex-direction: column;
   background-color: var(--Gris-fondo);
-  gap: 2rem;
-  padding: 2rem;
+  gap: 20px;
+  padding: 30px 15px 45px;
 }
 .section__fortalezas-titulo {
-  height: 4.5rem;
+  height: 4.5vh;
   font-size: 2.2rem;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
@@ -88,7 +88,7 @@ html {
 }
 
 .section__debilidades-titulo {
-  height: 4.5rem;
+  height: 4.5vh;
   font-size: 2.2rem;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
@@ -322,6 +322,7 @@ html {
   .section {
     display: flex;
     flex-direction: row;
+    padding: 45px 44.8px 60px 45px;
   }
 
   .footer__container {
