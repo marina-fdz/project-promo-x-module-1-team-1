@@ -25,30 +25,33 @@
     <header class="header">
       <h1 class="title">SISTERS EN CÓDIGO</h1>
       <nav class="menu">
-        <ul class="menu-list">
+        <ul class="menu__list">
           <li>EQUIPO</li>
           <li>QUIENES SOMOS</li>
           <li>CONTACTO</li>
         </ul>
       </nav>
     </header>
+    <!-- El header por lo que veo va en fixed (se ve la imagen del banner detrás). Cuando Aroa tenga su parte, lo ajusto -->
     <main>
       <section>
         <!-- Imagen y eslogan-->
 
         <!-- Soy Marina, voy a comentar la línea de la imagen porque se sale del view width y rompe el css de todo el proyecto. Como es una imagen de fondo creo que lo mejor es que crees un div contenedor de la imagen y la imagen la metas en css. Por supuesto, puedes hacerlo como prefieras, perdon por entrometerme -->
 
-        <div class="banner"></div>
-        <p class="eslogan">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, atque
-          incidunt excepturi, ducimus in exercitationem quia sint possimus
-          necessitatibus voluptatibus molestiae earum ratione eos debitis est,
-          asperiores recusandae et obcaecati!
+        <div class="banner__image">
+          <p class="eslogan">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, atque
+            incidunt excepturi, ducimus in exercitationem quia sint possimus
+            necessitatibus voluptatibus molestiae earum ratione eos debitis est,
+            asperiores recusandae et obcaecati!
+        </div>
+      
         </p>
       </section>
       <!--Titulo y descripción del equipo-->
       <section>
-        <article>
+        <article class="article__equipo__titulo">
           <h2 class="equipo-titulo">EQUIPO</h2>
 
           <p class="equipo-parrafo">
@@ -56,6 +59,7 @@
             tempore sint adipisci iste, sunt praesentium eius facere autem
             placeat architecto itaque odio animi illo alias a, repellendus magni
             rem dolor.
+            
           </p>
           <p class="equipo-parrafo">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ipsum

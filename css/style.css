@@ -28,10 +28,13 @@ nav {
   padding: 15px;
 }
 
-.banner {
+.banner__image {
+  background-image: url(../images/hero-img.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   background-color: red;
-  width: 100%;
-  height: 421px;
+  padding: 40px;
 }
 .menu-list {
   display: flex;
@@ -103,12 +106,25 @@ nav {
   background-color: white;
   font-weight: 700;
   font-family: var(--font-family);
+  padding: 14px 15px 16px;
+  position: absolute;
+  width: 280px;
+  height: 88px;
+}
+.article__equipo__titulo {
+  display: flex;
+  flex-direction: column;
 }
 .equipo-titulo {
+  padding: 30px;
   color: #14d9c4;
   font-size: 24px;
+  font-weight: 500px;
   text-align: center;
   line-height: 45px;
+  width: 30px;
+  height: 30px:
+  
 }
 .equipo-parrafo {
   color: #54585a;
