@@ -7,6 +7,7 @@
   --Blanco: #ffffff;
   --Negro: #000000;
   --font-family: "Open Sans", sans-serif;
+  --font-size-titulo: 5rem;
 }
 html {
   font-size: 62.5%;
@@ -51,9 +52,7 @@ html {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color: red;
-  padding: 40px;
-  height: 421px;
+  height: 100%;
 }
 .menu__list {
   display: flex;
@@ -299,7 +298,7 @@ html {
 
 /* versión tablet y desktop*/
 
-@media (width > 1000px) {
+@media (min-width: 736px) {
   .header {
     display: flex;
     justify-content: space-between;
@@ -319,6 +318,26 @@ html {
   .title {
     margin-left: 45px;
     font-size: 15px;
+  }
+
+  .section__banner {
+    height: 42.1rem;
+    position: relative;
+  }
+
+  .eslogan {
+    background-color: white;
+    font-weight: 700;
+    font-family: var(--font-family);
+    opacity: 0.8;
+    padding: 15px 30px;
+    position: absolute;
+    font-size: 1.8rem;
+    width: 440px;
+    bottom: 0;
+    left: 0;
+    /* preguntar por los ejes de la pantalla para centrar eslogan */
+    transform: translateX(-50%);
   }
 
   .section {
@@ -393,5 +412,19 @@ html {
     justify-content: right;
     align-items: right;
     padding: 1rem;
+  }
+
+  .eslogan {
+    background-color: blue;
+    font-weight: 700;
+    font-family: var(--font-family);
+    padding: 15px 30px;
+    position: absolute;
+    font-size: 1.8rem;
+    width: 29rem;
+    height: 8rem;
+    top: 10%;
+    left: 10%;
+    transform: translateX(-50%);
   }
 }
