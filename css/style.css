@@ -15,7 +15,7 @@ html {
   box-sizing: border-box;
 }
 
-nav {
+.menu {
   background-color: var(--secundary-color);
 }
 
@@ -293,7 +293,7 @@ nav {
     background-color: var(--main-color);
   }
 
-  nav {
+  .menu {
     background-color: var(--main-color);
   }
 
