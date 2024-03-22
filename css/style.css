@@ -78,11 +78,12 @@ html {
   display: flex;
   flex-direction: column;
   background-color: var(--Gris-fondo);
-  gap: 2rem;
-  padding: 2rem;
+  gap: 20px;
+  padding: 30px 15px 45px;
+  position: relative;
 }
 .section__fortalezas-titulo {
-  height: 4.5rem;
+  height: 4.5vh;
   font-size: 2.2rem;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
@@ -106,7 +107,7 @@ html {
 }
 
 .section__debilidades-titulo {
-  height: 4.5rem;
+  height: 4.5vh;
   font-size: 2.2rem;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
@@ -135,6 +136,37 @@ html {
   text-align: center;
   padding-left: 45px;
   padding-right: 45px;
+}
+
+.rectangulo{
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  top:0;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.rotate{
+  height: 30px;
+  width: 30px;
+  background-color:var(--Blanco);
+  transform: rotate(45deg);
+}
+
+.eslogan {
+  background-color: white;
+  font-weight: 700;
+  font-family: var(--font-family);
+  padding: 14px 15px 16px;
+  position: absolute;
+  width: 280px;
+  height: 88px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.article__equipo__titulo {
   display: flex;
   flex-direction: column;
   padding-top: 6rem;
@@ -353,6 +385,7 @@ html {
   .section {
     display: flex;
     flex-direction: row;
+    padding: 45px 44.8px 60px 45px;
   }
 
   .footer__container {
