@@ -35,31 +35,6 @@ html {
   padding: 15px;
 }
 
-.section__banner {
-  height: 42.1rem;
-}
-
-.eslogan {
-  background-color: white;
-  font-weight: 700;
-  font-family: var(--font-family);
-  padding: 14px 15px 16px;
-  position: absolute;
-  font-size: 1.8rem;
-  width: 29rem;
-  height: 8rem;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.banner__image {
-  background-image: url(../images/hero-img.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  height: 100%;
-}
 .menu__list {
   display: flex;
   justify-content: space-around;
@@ -70,6 +45,64 @@ html {
 .menu__list a{
   text-decoration: none;
   color: white;
+}
+
+/* banner */
+
+.section__banner {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  
+}
+
+.banner__image {
+  background-image: url(../images/hero-img.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 42.1rem;
+}
+
+.eslogan {
+  background-color: white;
+  font-weight: 500;
+  font-family: var(--font-family);
+  padding: 14px 15px 16px;
+  position: relative;
+  font-size: 1.8rem;
+  width: 29rem;
+  height: 8rem;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 50;
+}
+
+
+/* equipo */
+
+.article__equipo {
+  width: 100%;
+  text-align: center;
+  padding: 0px 45px 30px;
+}
+
+.equipo-titulo {
+  color: var(--secundary-color);
+  font-family: "Rubik";
+  font-size: 2.4rem;
+  font-weight: 500;
+  padding-bottom: 2rem;
+  /* z-index: 50; */
+}
+.equipo-parrafo {
+  color: #54585a;
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 2.4rem;
+  font-family: var(--font-family);
+  opacity: 67%;
 }
 
 /* fortalezas y debilidades*/
@@ -131,11 +164,6 @@ html {
   color: #54585a;
 }
 
-.article__equipo {
-  width: 100%;
-  text-align: center;
-  padding: 4.5rem;
-}
 
 .rectangulo{
   height: fit-content;
@@ -151,36 +179,6 @@ html {
   width: 30px;
   background-color:var(--Blanco);
   transform: rotate(45deg);
-}
-
-.eslogan {
-  background-color: white;
-  font-weight: 700;
-  font-family: var(--font-family);
-  padding: 14px 15px 16px;
-  position: relative;
-  width: 280px;
-  height: 88px;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.equipo-titulo {
-  color: var(--secundary-color);
-  font-family: "Rubik";
-  font-size: 2.4rem;
-  font-weight: 500;
-  padding-bottom: 2rem;
-  z-index: 50;
-}
-.equipo-parrafo {
-  color: #54585a;
-  font-size: 1.6rem;
-  text-align: center;
-  line-height: 2.4rem;
-  font-family: var(--font-family);
-  opacity: 67%;
 }
 
 
