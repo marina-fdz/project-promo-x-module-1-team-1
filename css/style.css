@@ -372,23 +372,22 @@ html {
 
   .section__banner {
     height: 42.1rem;
-    position: relative;
+    display: flex;
+    flex-direction: column;
   }
 
-  .eslogan {
+  /*.eslogan {
     background-color: white;
     font-weight: 700;
     font-family: var(--font-family);
     opacity: 0.8;
     padding: 15px 30px;
-    position: absolute;
+    position: relative;
     font-size: 1.8rem;
     width: 440px;
-    bottom: 0;
-    left: 0;
-    /* preguntar por los ejes de la pantalla para centrar eslogan */
+    /* preguntar por los ejes de la pantalla para centrar eslogan 
     transform: translateX(-50%);
-  }
+  }*/
 
   .section {
     display: flex;
