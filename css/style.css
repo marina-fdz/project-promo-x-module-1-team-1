@@ -134,8 +134,7 @@ html {
 .article__equipo {
   width: 100%;
   text-align: center;
-  padding-left: 45px;
-  padding-right: 45px;
+  padding: 4.5rem;
 }
 
 .rectangulo{
@@ -159,25 +158,21 @@ html {
   font-weight: 700;
   font-family: var(--font-family);
   padding: 14px 15px 16px;
-  position: absolute;
+  position: relative;
   width: 280px;
   height: 88px;
   top: 50%;
   left: 50%;
   transform: translateX(-50%);
 }
-.article__equipo__titulo {
-  display: flex;
-  flex-direction: column;
-  padding-top: 6rem;
-  padding-bottom: 45px;
-}
+
 .equipo-titulo {
   color: var(--secundary-color);
   font-family: "Rubik";
   font-size: 2.4rem;
   font-weight: 500;
   padding-bottom: 2rem;
+  z-index: 50;
 }
 .equipo-parrafo {
   color: #54585a;
@@ -188,12 +183,6 @@ html {
   opacity: 67%;
 }
 
-.equipo-parrafo {
-  color: #54585a;
-  size: 16px;
-  text-align: center;
-  line-height: 24px;
-}
 
 /*QUIENES SOMOS*/
 
