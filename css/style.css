@@ -57,7 +57,7 @@ html {
 }
 
 .banner__image {
-  background-image: url(../images/hero-img.png);
+  background-image: url(../images/banner_img.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -384,7 +384,7 @@ html {
     font-size: 1.8rem;
     width: 440px;
     /*preguntar por los ejes de la pantalla para centrar eslogan*/
-    transform: translateX(-50%);
+    transform: translate(-90%,-90%);
   } 
 
   .section {
