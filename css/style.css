@@ -344,7 +344,7 @@ html {
   width: 100%;
 }
 
-/* versión tablet y desktop*/
+/* versión tablet */
 
 @media (min-width: 768px) {
   .header {
@@ -468,5 +468,20 @@ html {
     transform: translate(-1rem, -5rem);
   }
 
+
+}
+
+/* versión desktop */
+
+@media (min-width: 1200px){
+
+  /* poner 138px de margenes laterales */
+
+
+  .footer__container {
+    padding-left: 13.8rem;
+    padding-right: 13.8rem;
+    
+  }
 
 }
