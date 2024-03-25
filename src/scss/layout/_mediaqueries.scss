@@ -48,47 +48,48 @@
     }
   
   
-    .quienes__somos--image{
+    /*.quienes__somos--image{
       width: 20.6rem;
       height: 20.6rem;
-    }
+    }*/
   
   
-     .quienes__somos--art--izq {
+     /*.quienes__somos--art--izq {
       display: flex;
       flex-direction: row;
       align-content: left;
       padding: 4rem;
-    }
-     .quienes__somos--name--izq,
+    }*/
+
+     /*.quienes__somos--name--izq,
      .quienes__somos--text--izq {
       text-align: left;
       padding: 1rem;
-      }
+      }*/
   
-     .quienes__somos--media--izq {
+     /*.quienes__somos--media--izq {
       justify-content: left;
       align-items: left;
       padding: 1rem;
-    }
+    }*/
   
-     .quienes__somos--art--dcha {
+     /*.quienes__somos--art--dcha {
       display: flex;
       flex-direction: row-reverse;
       padding: 4rem;
-    }
+    }*/
   
-     .quienes__somos--name--dcha,
+     /*.quienes__somos--name--dcha,
      .quienes__somos--text--dcha {
       text-align: right;
       padding: 1rem;
-    }
+    }*/
   
-     .quienes__somos--media--dcha {
+     /*.quienes__somos--media--dcha {
       justify-content: right;
       align-items: right;
       padding: 1rem;
-    }
+    }*/
   
     .footer__container {
       flex-direction: row;

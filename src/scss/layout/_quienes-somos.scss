@@ -23,6 +23,11 @@
     height: 18rem;
     border: 0.5rem solid $backgroundGrey;
     border-radius: 4%;
+    @media (min-width:768px){
+      width: 20.6rem;
+      height: 20.6rem;
+    }
+   
   }
   
   &--art--izq {
@@ -32,6 +37,12 @@
     align-items: center;
     width: 100vw;
     gap: 2rem;
+    @media (min-width: 768px){
+      display: flex;
+      flex-direction: row;
+      align-content: left;
+      padding: 4rem;
+    }
   }
   &--art--dcha {
     display: flex;
@@ -40,6 +51,12 @@
     align-items: center;
     width: 100vw;
     gap: 2rem;
+    @media (min-width: 768px){
+      display: flex;
+      flex-direction: row-reverse;
+      padding: 4rem;
+    }
+
   }
   &--name--izq {
     font-family: $fontFamily;
@@ -48,6 +65,10 @@
     font-weight: 400;
     padding-left: 4.5rem;
     padding-right: 4.5rem;
+    @media (min-width: 768px){
+      text-align: left;
+      padding: 1rem;
+    }
   }
   &--name--dcha {
     font-family: $fontFamily;
@@ -56,6 +77,10 @@
     font-weight: 400;
     padding-left: 4.5rem;
     padding-right: 4.5rem;
+    @media (min-width: 768px){
+      text-align: right;
+      padding: 1rem;
+    }
   }
   &--text--izq {
     font-family: $fontFamily;
@@ -66,6 +91,10 @@
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-top: 1.5rem;
+    @media (min-width: 768px){
+      text-align: left;
+      padding: 1rem;
+    }
   }
   &--text--dcha {
     font-family: $fontFamily;
@@ -76,6 +105,10 @@
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-top: 1.5rem;
+    @media (min-width: 768px){
+      text-align: right;
+      padding: 1rem;
+    }
   }
   &--media--izq {
     display: flex;
@@ -85,8 +118,12 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
     font-size: 1.6rem;
-    
     line-height: 3rem;
+    @media (min-width: 768px){
+      justify-content: left;
+      align-items: left;
+      padding: 1rem;
+    }
   }
   &--media--dcha {
     display: flex;
@@ -96,8 +133,12 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
     font-size: 1.6rem;
-    
     line-height: 3rem;
+    @media (min-width: 768px){
+      justify-content: right;
+      align-items: right;
+      padding: 1rem;
+    }
   }
   &--media--izq a{
     color: $mainColor;
