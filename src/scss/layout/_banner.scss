@@ -1,0 +1,30 @@
+.section__banner {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    
+  }
+  
+  .banner__image {
+    background-image: url(../images/banner_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 42.1rem;
+  }
+  
+  .eslogan {
+    background-color: white;
+    font-weight: 500;
+    font-family: var(--font-family);
+    padding: 14px 15px 16px;
+    position: relative;
+    font-size: 1.8rem;
+    width: 29rem;
+    height: 8rem;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 50;
+  }
+  

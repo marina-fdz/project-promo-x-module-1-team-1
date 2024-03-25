@@ -1,0 +1,118 @@
+.quienes__somos {
+    background-color: var(--Blanco);
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-bottom: 3rem;
+  }
+  
+  .quienes__somos--title {
+    color: var(--main-color);
+    font-family: var(--font-family);
+    text-align: center;
+    padding: 3rem 1.5rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    width: 100vw;
+    line-height: 4.5rem;
+  }
+  
+  .quienes__somos--image {
+    width: 18rem;
+    height: 18rem;
+    border: 0.5rem solid var(--Gris-fondo);
+    border-radius: 4%;
+  }
+  
+  .quienes__somos--art--izq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    gap: 2rem;
+  }
+  
+  .quienes__somos--art--dcha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    gap: 2rem;
+  }
+  
+  
+  
+  .quienes__somos--name--izq {
+    font-family: var(--font-family);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+  
+  .quienes__somos--name--dcha {
+    font-family: var(--font-family);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+  
+  .quienes__somos--text--izq {
+    font-family: var(--font-family);
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--Gris-oscuro);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1.5rem;
+  }
+  
+  .quienes__somos--text--dcha {
+    font-family: var(--font-family);
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--Gris-oscuro);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1.5rem;
+  }
+  
+  .quienes__somos--media--izq {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 1.6rem;
+    
+    line-height: 3rem;
+  }
+  
+  .quienes__somos--media--dcha {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 1.6rem;
+    
+    line-height: 3rem;
+  }
+  
+  .quienes__somos--media--izq a{
+    color: var(--main-color);
+  }
+  
+  .quienes__somos--media--dcha a{
+    color: var(--main-color);
+  }
+  

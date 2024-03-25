@@ -1,0 +1,32 @@
+.header {
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+  }
+  .menu {
+    background-color: var(--secundary-color);
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    background-color: var(--main-color);
+    color: white;
+    padding: 15px;
+  }
+  
+  .menu__list {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    padding: 15px;
+  }
+  .menu__list a{
+    text-decoration: none;
+    color: white;
+  }
+  
