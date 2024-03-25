@@ -1,12 +1,12 @@
 .section {
     display: flex;
     flex-direction: column;
-    background-color: var(--Gris-fondo);
+    background-color: $backgroundGrey;
     gap: 20px;
     padding: 30px 15px 45px;
     position: relative;
   }
-  .section__fortalezas-titulo {
+  .section__fortalezas--titulo {
     height: 4.5vh;
     font-size: 2.2rem;
     font-family: "Rubik", sans-serif;
@@ -16,10 +16,10 @@
     line-height: 2.05;
     letter-spacing: normal;
     text-align: center;
-    color: var(--main-color);
+    color: $mainColor;
   }
-  .section__fortalezas-texto {
-    font-family: var(--font-family);
+  .section__fortalezas--texto {
+    font-family: $fontFamily;
     font-size: 1.6rem;
     font-weight: normal;
     font-stretch: normal;
@@ -30,7 +30,7 @@
     color: #54585a;
   }
   
-  .section__debilidades-titulo {
+  .section__debilidades--titulo {
     height: 4.5vh;
     font-size: 2.2rem;
     font-family: "Rubik", sans-serif;
@@ -40,11 +40,11 @@
     line-height: 2.05;
     letter-spacing: normal;
     text-align: center;
-    color: var(--main-color);
+    color: $mainColor;
   }
   
-  .section__debilidades-texto {
-    font-family: var(--font-family);
+  .section__debilidades--texto {
+    font-family: $fontFamily;
     font-size: 1.6rem;
     font-weight: normal;
     font-stretch: normal;
@@ -54,7 +54,6 @@
     text-align: center;
     color: #54585a;
   }
-  
   
   .rectangulo{
     height: fit-content;
@@ -68,7 +67,7 @@
   .rotate{
     height: 30px;
     width: 30px;
-    background-color:var(--Blanco);
+    background-color:$white;
     transform: rotate(45deg);
   }
   
