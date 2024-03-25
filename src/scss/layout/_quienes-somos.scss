@@ -1,14 +1,15 @@
+@import '../core/variables';
+
 .quienes__somos {
-    background-color: var(--Blanco);
+    background-color: $white;
     display: flex;
     flex-direction: column;
     width: 100vw;
     margin-bottom: 3rem;
-  }
   
-  .quienes__somos--title {
-    color: var(--main-color);
-    font-family: var(--font-family);
+  &--title {
+    color: $mainColor;
+    font-family: $fontFamily;
     text-align: center;
     padding: 3rem 1.5rem;
     font-size: 2.4rem;
@@ -17,14 +18,14 @@
     line-height: 4.5rem;
   }
   
-  .quienes__somos--image {
+ &--image {
     width: 18rem;
     height: 18rem;
-    border: 0.5rem solid var(--Gris-fondo);
+    border: 0.5rem solid $backgroundGrey;
     border-radius: 4%;
   }
   
-  .quienes__somos--art--izq {
+  &--art--izq {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,8 +33,7 @@
     width: 100vw;
     gap: 2rem;
   }
-  
-  .quienes__somos--art--dcha {
+  &--art--dcha {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,50 +41,43 @@
     width: 100vw;
     gap: 2rem;
   }
-  
-  
-  
-  .quienes__somos--name--izq {
-    font-family: var(--font-family);
+  &--name--izq {
+    font-family: $fontFamily;
     text-align: center;
     font-size: 2rem;
     font-weight: 400;
     padding-left: 4.5rem;
     padding-right: 4.5rem;
   }
-  
-  .quienes__somos--name--dcha {
-    font-family: var(--font-family);
+  &--name--dcha {
+    font-family: $fontFamily;
     text-align: center;
     font-size: 2rem;
     font-weight: 400;
     padding-left: 4.5rem;
     padding-right: 4.5rem;
   }
-  
-  .quienes__somos--text--izq {
-    font-family: var(--font-family);
+  &--text--izq {
+    font-family: $fontFamily;
     text-align: center;
     font-size: 1.6rem;
     line-height: 2.4rem;
-    color: var(--Gris-oscuro);
+    color: $darkGrey;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-top: 1.5rem;
   }
-  
-  .quienes__somos--text--dcha {
-    font-family: var(--font-family);
+  &--text--dcha {
+    font-family: $fontFamily;
     text-align: center;
     font-size: 1.6rem;
     line-height: 2.4rem;
-    color: var(--Gris-oscuro);
+    color: $darkGrey;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-top: 1.5rem;
   }
-  
-  .quienes__somos--media--izq {
+  &--media--izq {
     display: flex;
     gap: 1rem;
     justify-content: center;
@@ -95,8 +88,7 @@
     
     line-height: 3rem;
   }
-  
-  .quienes__somos--media--dcha {
+  &--media--dcha {
     display: flex;
     gap: 1rem;
     justify-content: center;
@@ -107,12 +99,11 @@
     
     line-height: 3rem;
   }
-  
-  .quienes__somos--media--izq a{
-    color: var(--main-color);
+  &--media--izq a{
+    color: $mainColor;
   }
-  
-  .quienes__somos--media--dcha a{
-    color: var(--main-color);
+  &--media--dcha a{
+    color: $mainColor;
   }
+}
   
