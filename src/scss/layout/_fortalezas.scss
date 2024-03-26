@@ -1,61 +1,73 @@
 .section {
     display: flex;
     flex-direction: column;
-    background-color: var(--Gris-fondo);
+    background-color: $backgroundGrey;
     gap: 20px;
     padding: 30px 15px 45px;
     position: relative;
+
+    @media (min-width: 768px){
+      display: flex;
+      flex-direction: row;
+      padding: 45px 44.8px 60px 45px;
+    }
+
+    @media (min-width: 1200px){
+      height: 309px;
+      padding: 45px 138px 60px;
+    }
+
+    &__fortalezas--titulo{
+      height: 4.5vh;
+      font-size: 2.2rem;
+      font-family: "Rubik", sans-serif;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.05;
+      letter-spacing: normal;
+      text-align: center;
+      color: $mainColor;
+    }
+    
+    &__fortalezas--texto{
+      font-family: $fontFamily;
+      font-size: 1.6rem;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: #54585a;
+    }
+
+    &__debilidades--titulo{
+      height: 4.5vh;
+      font-size: 2.2rem;
+      font-family: "Rubik", sans-serif;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.05;
+      letter-spacing: normal;
+      text-align: center;
+      color: $mainColor;
+    }
+
+    &__debilidades--texto{
+      font-family: $fontFamily;
+      font-size: 1.6rem;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: center;
+      color: #54585a;
+    }
   }
-  .section__fortalezas-titulo {
-    height: 4.5vh;
-    font-size: 2.2rem;
-    font-family: "Rubik", sans-serif;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.05;
-    letter-spacing: normal;
-    text-align: center;
-    color: var(--main-color);
-  }
-  .section__fortalezas-texto {
-    font-family: var(--font-family);
-    font-size: 1.6rem;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: center;
-    color: #54585a;
-  }
-  
-  .section__debilidades-titulo {
-    height: 4.5vh;
-    font-size: 2.2rem;
-    font-family: "Rubik", sans-serif;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.05;
-    letter-spacing: normal;
-    text-align: center;
-    color: var(--main-color);
-  }
-  
-  .section__debilidades-texto {
-    font-family: var(--font-family);
-    font-size: 1.6rem;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: center;
-    color: #54585a;
-  }
-  
-  
+ 
   .rectangulo{
     height: fit-content;
     width: fit-content;
@@ -68,7 +80,7 @@
   .rotate{
     height: 30px;
     width: 30px;
-    background-color:var(--Blanco);
+    background-color:$white;
     transform: rotate(45deg);
   }
   

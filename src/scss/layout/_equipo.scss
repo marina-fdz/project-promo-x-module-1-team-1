@@ -1,21 +1,21 @@
 .article__equipo {
-    width: 100%;
-    text-align: center;
-    padding: 0px 45px 30px;
-  }
-  
-  .equipo-titulo {
-    color: var(--secundary-color);
-    font-family: "Rubik";
-    font-size: 2.4rem;
-    font-weight: 500;
-    padding-bottom: 2rem;
-  }
-  .equipo-parrafo {
-    color: #54585a;
-    font-size: 1.6rem;
-    text-align: center;
-    line-height: 2.4rem;
-    font-family: var(--font-family);
-    opacity: 67%;
-  }
+  width: 100%;
+  text-align: center;
+  padding: 0px 45px 30px;
+}
+
+.equipo-titulo {
+  color: $secondaryColor;
+  font-family: "Rubik";
+  font-size: 2.4rem;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+.equipo-parrafo {
+  color: #54585a;
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 2.4rem;
+  font-family: var(--font-family);
+  opacity: 67%;
+}
