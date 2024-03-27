@@ -1,32 +1,83 @@
 .header {
-    width: 100vw;
+    width: 100%;
     position: fixed;
     left: 0;
     top: 0;
     z-index: 100;
-  }
-  .menu {
-    background-color: var(--secundary-color);
-  }
-  
-  .title {
-    font-size: 2rem;
+    @media (width> 768px){
+      display: flex;
+      justify-content: space-between;
+      background-color: $mainColor;
+      }
+
+      h1{
+        font-size: 2rem;
     font-family: "Rubik", sans-serif;
     text-align: center;
-    background-color: var(--main-color);
-    color: white;
+    background-color: $mainColor;
+    color: $white;
     padding: 15px;
+    @media (width> 768px){
+      margin-left: 45px;
+      font-size: 1.5rem;
+    }
+      }
+  }
+  .menu {
+    background-color: $secondaryColor;
+    
+    @media (width> 768px){
+    background-color: $mainColor;
+    }
+
+    &__list{
+      display: flex;
+      justify-content: space-around;
+      color: $white;
+      font-family: "Rubik", sans-serif;
+      padding: 15px;
+      font-size: 1.5rem;
+  
+      @media (width> 768px){
+        gap: 20px;
+        margin-right: 45px;
+        font-size: 1.5rem;
+      }
+    }
+    a{
+      text-decoration: none;
+    color: $white;
+    }
   }
   
-  .menu__list {
-    display: flex;
-    justify-content: space-around;
-    color: white;
-    font-family: "Rubik", sans-serif;
-    padding: 15px;
-  }
-  .menu__list a{
-    text-decoration: none;
-    color: white;
-  }
+  // .title {
+  //   font-size: 2rem;
+  //   font-family: "Rubik", sans-serif;
+  //   text-align: center;
+  //   background-color: $mainColor;
+  //   color: $white;
+  //   padding: 15px;
+  //   @media (width> 768px){
+  //     margin-left: 45px;
+  //     font-size: 1.5rem;
+  //   }
+  // }
+  
+  // .menu__list {
+  //   display: flex;
+  //   justify-content: space-around;
+  //   color: $white;
+  //   font-family: "Rubik", sans-serif;
+  //   padding: 15px;
+
+  //   @media (width> 768px){
+  //     gap: 20px;
+  //     margin-right: 45px;
+  //     font-size: 1.5rem;
+  //   }
+  // }
+  // .menu__list a{
+  //   text-decoration: none;
+  //   color: $white;
+  // }
   
