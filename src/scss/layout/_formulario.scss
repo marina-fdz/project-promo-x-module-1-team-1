@@ -1,0 +1,98 @@
+.main{
+    // height: 1360px;
+    background-color: #fff;
+}
+.main__image{
+    background-image: url(../images/formulario_imagen.jpg); background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 42.1rem;
+}
+.main__titulo{
+    padding-bottom: 30px;
+    height: 45px;
+    margin: 0 15px 15.5px;
+    font-family: Rubik-Medium;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.88;
+    text-align: center;
+    color: $mainColor;
+}
+
+.main__parrafos{
+    font-family: OpenSans;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: $darkGrey;
+}
+
+.main__parrafos-1{
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    color: $darkGrey;
+}
+
+.main__parrafos-2{
+    font-size: 12px;
+    text-align: center;
+    line-height: 24px;
+    color: $darkGrey;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+}
+
+.label{
+    height: 19px;
+    margin: 58px 159px 7px 0;
+    font-family: OpenSans;
+    font-size: 14px;
+    color: $darkGrey;
+}
+
+.label::placeholder{
+    width: 290px;
+    height: 45px;
+    margin: 7px 0 13px;
+    padding: 7px 209px 15px 15px;
+    border: solid 1px $lightGrey;
+}
+
+.boton{
+    width: 290px;
+    height: 45px;
+    margin: 30px 0 0;
+    border-radius: 4px;
+    background-color: $mainColor;
+    color: $white;
+    text-align: center;
+}
+.form{
+    width: 290px;
+    height: 45px;
+    margin: 7px 0 13px;
+    padding: 7px 15px 15px;
+    border: solid 1px $lightGrey;
+}
+
+.form-2{
+    width: 290px;
+    height: 45px;
+    margin: 7px 0 13px;
+    padding: 7px 15px 15px;
+    border: solid 1px $darkGrey;
+}
+.mensaje{
+    width: 290px;
+    height: 105px;
+    margin: 7px 0 30px;
+    padding: 7px 171px 75px 15px;
+    border: solid 1px  $lightGrey;
+}
