@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <load src="./partials/header.html">
+    <main class="main">
+        <h1 class="main__titulo">CONTACTO</h1>
+        <div class="main__parrafos">
+            <p class="main__parrafos-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia odit asperiores cupiditate sint. Nihil inventore a, provident tenetur facere voluptates dolorum sint ullam culpa, molestiae voluptatibus excepturi exercitationem, dolore eum!</p>
+            <p class="main__parrafos-2">Todos los campos marcados con * son obligatorios.</p>
+        </div>
+        <form class="formulario">
+            <label class="label" for="Nombre">Nombre completo*</label>
+            <input
+              placeholder="Nombre..."
+              id="Nombre"
+              type="text"
+              name="Nombre"
+              required
+            />
+
+            <label class="label" for="Mail">Email*</label>
+            <input
+              placeholder="nombre@apellidos@mail.com"
+              id="Mail"
+              type="email"
+              name="Mail"
+              required
+            />
+
+            <label class="label" for="Telefono">Teléfono</label>
+            <input
+              placeholder="Ej: 123456789"
+              id="Telefono"
+              type="tel"
+              name="Telefono"
+            
+            />
+
+            <label class="label" for="Mensaje">Mensaje*</label>
+            <textarea 
+            id="Mensaje" 
+            cols="30" 
+            ows="10"
+            name="Mensaje" 
+            required
+            >
+            </textarea>
+
+            <input type="submit" value="Enviar" />
+
+        </form>
+    </main>
+    <load src="./partials/footer.html">
+</body>
+</html>
