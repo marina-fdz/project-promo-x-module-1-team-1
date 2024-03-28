@@ -74,6 +74,11 @@
                margin-left: 240px;
                width: 206px;
               }
+            
+              @media (min-width: 1200px){
+                margin-left: 320px;
+                width: 278px;
+              }
         }
     }
 }
@@ -95,8 +100,12 @@
 
     @media (min-width: 768px){
         width: 442px;
-        height: 45px;
        }
+    
+       @media (min-width: 1200px){
+        width: 601px;
+      }
+  
 }
 
 .form-2{
@@ -108,8 +117,28 @@
 
     @media (min-width: 768px){
         width: 442px;
-        height: 45px;
        }
+    
+    @media (min-width: 1200px){
+        width: 395px;
+      }
+}
+
+.form-3{
+    width: 290px;
+    height: 45px;
+    margin: 7px 0 13px;
+    padding: 7px 15px 15px;
+    border: solid 1px $lightGrey;
+
+    @media (min-width: 768px){
+        width: 442px;
+       }
+    
+       @media (min-width: 1200px){
+        width: 162px;
+      }
+  
 }
 .mensaje{
     width: 290px;
@@ -119,6 +148,9 @@
 
     @media (min-width: 768px){
         width: 442px;
-        height: 105px;
        }
+    
+       @media (min-width: 1200px){
+        width: 601px;
+      }
 }
