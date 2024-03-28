@@ -7,6 +7,10 @@
         background-size: cover;
         height: 30rem;
         width: 100%;
+
+        @media (min-width: 1200px){
+            height: 40rem;
+          }
     }
 
     &__titulo{
