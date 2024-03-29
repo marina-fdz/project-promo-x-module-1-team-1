@@ -65,7 +65,7 @@
 
     }
 
-    &__formulario{
+    &__container{
         width: 100%;
         padding-left:15px;
         padding-right: 15px;
@@ -81,32 +81,11 @@
            }
 
         @media (min-width: 1200px){
-            padding-left: 299px;
-            padding-right: 299px;
-            padding-bottom: 120px;
+            width: 70%; 
+            margin: 0 auto;
         }
         
-       &-div{
-            width: 100%;
-
-            @media (min-width: 1200px){
-                display: flex;
-                gap: 20px;
-                      
-            }
-             
-        }
-        
-        &-label{
-            width: 290px;
-            height: 19px;
-            font-family: $fontFamily;
-            font-size: 1.4rem;
-            color: $darkGrey;
-            margin-bottom: 7px;
-           
-             
-        }
+    }
 
         &-boton{
             width: 100%;
@@ -126,60 +105,41 @@
             
         }
     }
-}
 
+.label{
+        width: 290px;
+        height: 19px;
+        font-family: $fontFamily;
+        font-size: 1.4rem;
+        color: $darkGrey;
+        margin-bottom: 7px;
 
-.form{
-    width: 100%;
-    height: 45px;
-    margin: 7px 0 13px;
-    padding-left: 15px;
-    border: solid 1px $lightGrey;
+        @media (min-width: 1200px){
+            display: block; 
+            font-weight: bold; 
+            width: 100%;
+            }
     
-    &::placeholder{
-        color: $lightGrey;
-        opacity: 80%;
-    }
-
 }
 
-.form-2{
-    width: 100%;
-    height: 45px;
-    margin: 7px 0 13px;
-    padding: 7px 15px 15px;
-    border: solid 1px $darkGrey;
+.input { 
+    width: 100%; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 5px; 
+} 
 
-    @media (min-width: 1200px){
-        width: 80%;
-    }
-
+.form__container--email{ 
+    width: calc(66.666% - 10px); /* Así ocupa dos tercios del 
+ancho disponible y le he quitado 10 px de separación por el margin 
+que le he dado, para que no lo tenga en cuenta */ 
+    display: inline-block; 
+    margin-right: 10px; 
+} 
+.form__container--telf { 
+    width: calc(33.333% - 10px); /* Un tercio del ancho disponible 
+y le he quitado 1opx de separación */ 
+    display: inline-block; 
 }
-
-.form-3{
-    width: 100%;
-    height: 45px;
-    margin: 7px 0 13px;
-    padding: 7px 15px 15px;
-    border: solid 1px $lightGrey;
-
-    &::placeholder{
-        color: $lightGrey;
-        opacity: 80%;
-    }
-
-    @media (min-width: 1200px){
-        width: 20%;
-    }
-
-}
-
-.mensaje{
-    width: 100%;
-    height: 105px;
-    padding: 7px 171px 75px 15px;
-    border: solid 1px  $lightGrey;
-
-}
-
-    

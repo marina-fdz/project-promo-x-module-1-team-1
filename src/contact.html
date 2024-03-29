@@ -30,62 +30,33 @@
             <p class="main__parrafos-2">Todos los campos marcados con * son obligatorios.</p>
         </div>
 
-        <form class="main__formulario">
-
-             
-  
-            <label class="main__formulario-label" for="Nombre">Nombre completo <span class="main__parrafos-3">*</span></label>
-            <input
-              class="form"
-              placeholder="Nombre..."
-              id="Nombre"
-              type="text"
-              name="Nombre"
-              required
-            />
-     
-            <div class="main__formulario-div">
-
-              <label class="main__formulario-label" for="Mail">Email <span class="main__parrafos-3">*</span></label>
-              <input
-              class="form-2"
-              placeholder="nombre@apellidos.mail.com"
-              id="Mail"
-              type="email"
-              name="Mail"
-              required
-            />
-        
-
-   
-
-              <label class="main__formulario-label" for="Telefono">Teléfono</label>
-              <input
-              class="form-3"          
-              placeholder="Ej: 123456789"
-              id="Telefono"
-              type="tel"
-              name="Telefono"
-            />
-
-
-
-           </div>
-
-
-        
-            <label class="main__formulario-label" for="Mensaje">Mensaje <span class="main__parrafos-3">*</span></label>
-            <textarea
-            class="mensaje" 
-            id="Mensaje" 
-            name="Mensaje" 
-            required
-            >
-            </textarea>
-
-            <input class="main__formulario-boton" type="submit" value="Enviar" />
-
-        </form>
+        <form class="form__container"> 
+          <div> 
+              <label class="label" for="nombreCompleto">Nombre 
+              completo:</label> 
+              <input class="input" type="text" id="nombreCompleto" 
+              name="nombreCompleto"> 
+          </div> 
+          <div> 
+              <div class="form__container--email"> 
+                  <label class="label" for="email">Email:</label> 
+                  <input class="input" type="email" id="email" 
+                  name="email"> 
+              </div> 
+              <div class="form__container--telf"> 
+                  <label class="label" for="telefono">Teléfono:</label> 
+                  <input class="input" type="tel" id="telefono" 
+                  name="telefono"> 
+              </div> 
+          </div> 
+          <div> 
+              <label class="label" for="mensaje">Mensaje:</label> 
+              <textarea class="input" class="textarea" id="mensaje" 
+              name="mensaje" rows="6"></textarea> 
+          </div> 
+      </form> 
+       
+      
     </main>
 
     <load src="./partials/footer.html"/>
