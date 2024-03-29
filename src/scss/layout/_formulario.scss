@@ -52,26 +52,23 @@
     }
 
     &__formulario{
-        width: fit-content; 
+        // width: 100%; 
         display: flex;
         flex-direction: column;
         padding:15px;
         gap: 7px;
-        margin: 0 auto 60px;
+        // margin: 0 15px 0 15px;
         align-items: center;
         // position: relative;
         
    
         &-label{
+            width: 290px;
             height: 19px;
             font-family: $fontFamily;
             font-size: 14px;
             color: $darkGrey;
-            // position: absolute;
-            // top:0;
-            // left:0;
-                      
-                    
+            margin-bottom: 7px; 
         }
 
         &-boton{
