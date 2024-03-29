@@ -4,6 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="./scss/main.scss">
 </head>
 <body>
@@ -17,7 +30,7 @@
             <p class="main__parrafos-2">Todos los campos marcados con * son obligatorios.</p>
         </div>
         <form class="main__formulario">
-            <label class="main__formulario-label" for="Nombre">Nombre completo*</label>
+            <label class="main__formulario-label" for="Nombre">Nombre completo <span class="main__parrafos-3">*</span></label>
             <input
               class="form"
               placeholder="Nombre..."
@@ -27,18 +40,19 @@
               required
             />
 
-            <label class="main__formulario-label" for="Mail">Email*</label>
-            <input
+            <div class="main__formulario-div">
+              <label class="main__formulario-label" for="Mail">Email <span class="main__parrafos-3">*</span></label>
+              <input
               class="form-2"
-              placeholder="nombre@apellidos@mail.com"
+              placeholder="nombre@apellidos.mail.com"
               id="Mail"
               type="email"
               name="Mail"
               required
             />
 
-            <label class="main__formulario-label" for="Telefono">Teléfono</label>
-            <input
+              <label class="main__formulario-label" for="Telefono">Teléfono</label>
+              <input
               class="form-3"          
               placeholder="Ej: 123456789"
               id="Telefono"
@@ -46,7 +60,10 @@
               name="Telefono"
             />
 
-            <label class="main__formulario-label" for="Mensaje">Mensaje*</label>
+            </div>
+
+        
+            <label class="main__formulario-label" for="Mensaje">Mensaje <span class="main__parrafos-3">*</span></label>
             <textarea
             class="mensaje" 
             id="Mensaje" 
