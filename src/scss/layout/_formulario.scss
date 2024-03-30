@@ -84,7 +84,8 @@
         margin: 7px 0 13px;
         &::placeholder{
             color: $lightGrey;
-             opacity: 80%;
+            font-family: $fontFamily;
+            opacity: 80%;
         }
         &__mail{
             width: 100%;
@@ -95,6 +96,7 @@
             margin: 7px 0 13px;
             &::placeholder{
                 color: $darkGrey;
+                font-family: $fontFamily;
             }
         }
         &__textarea{
