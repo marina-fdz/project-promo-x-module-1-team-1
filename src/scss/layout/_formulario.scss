@@ -59,17 +59,15 @@
 
 
     .form__container {
-        width: 70%;
-        margin: auto;
+        width: 90%;
+        @media (min-width: 768px) { 
+            width:60%;
+        }
     
     }
     
-    
-
-
         .label {
             display: block;
-            font-weight: bold;
             width: 100%;
             font-family: $fontFamily;
             font-size: 1.4rem;
