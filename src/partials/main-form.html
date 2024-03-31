@@ -16,25 +16,30 @@
           required
         />
 
-        <label class="main__formulario-label email" for="Mail">Email <span class="main__parrafos-3">*</span></label>
-        <input
-          class="main__formulario-form email"
-          placeholder="nombre@apellidos@mail.com"
-          id="Mail"
-          type="email"
-          name="Mail"
-          required
-        />
+        <div class="main__formulario-group">
+          <div class="email">
+            <label class="main__formulario-label" for="Mail">Email <span class="main__parrafos-3">*</span></label>
+            <input
+              class="main__formulario-form"
+              placeholder="nombre@apellidos@mail.com"
+              id="Mail"
+              type="email"
+              name="Mail"
+              required
+            />
+      </div>
 
-        <label class="main__formulario-label phone" for="Telefono">Teléfono</label>
-        <input
-          class="main__formulario-form phone"          
-          placeholder="Ej: 123456789"
-          id="Telefono"
-          type="tel"
-          name="Telefono"
-        
-        />
+      <div class="phone">
+          <label class="main__formulario-label" for="Telefono">Teléfono</label>
+          <input
+            class="main__formulario-form"          
+            placeholder="Ej: 123456789"
+            id="Telefono"
+            type="tel"
+            name="Telefono"
+          />
+      </div>
+      </div>
 
         <label class="main__formulario-label" for="Mensaje">Mensaje <span class="main__parrafos-3">*</span></label>
         <textarea
