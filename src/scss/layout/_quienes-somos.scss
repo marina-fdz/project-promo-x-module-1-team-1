@@ -16,6 +16,9 @@
     font-weight: 500;
     width: 100vw;
     line-height: 4.5rem;
+    @media (min-width:768px){
+      padding-top: 4.5rem;
+    }
   }
   
  &--image {
@@ -27,7 +30,10 @@
       width: 20.6rem;
       height: 20.6rem;
     }
-   
+    @media (min-width:1200px){
+      width: 27.8rem;
+      height: 27.8rem;
+    }
   }
   
   &--art--izq {
@@ -43,6 +49,10 @@
       align-content: left;
       padding: 4rem;
     }
+    @media (min-width: 1200px){
+      padding-left: 13.8rem;
+      padding-right: 30rem;
+    }
   }
   &--art--dcha {
     display: flex;
@@ -55,6 +65,10 @@
       display: flex;
       flex-direction: row-reverse;
       padding: 4rem;
+    }
+    @media (min-width: 1200px){
+      padding-left: 30rem;
+      padding-right: 13.8rem;
     }
 
   }
