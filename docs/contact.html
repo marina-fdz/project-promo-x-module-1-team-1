@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Sisters en código</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+  <link rel="stylesheet" href="./assets/main-c112dddb.css">
+</head>
+<body>
+    <header class="header">
+  <h1 class="title"><a href="index.html">SISTERS EN CÓDIGO</a></h1>
+  <nav class="menu">
+    <ul class="menu__list">
+      <li><a href="index.html#equipo2">EQUIPO</a></li>
+      <li><a href="index.html#quienes-somos">QUIENES SOMOS</a></li>
+      <li><a href="contact.html">CONTACTO</a></li>
+    </ul>
+  </nav>
+</header>
+    <main class="main">
+  <div class="main__image"></div>
+  <h1 class="main__titulo">CONTACTO</h1>
+  <div class="main__parrafos">
+      <p class="main__parrafos-1">Si quieres ponerte en contacto con las chicas de Sisters en código por favor rellena el siguiente formulario.</p>
+      <p class="main__parrafos-2">Todos los campos marcados con <span class="decoration">*</span> son obligatorios.</p>
+  </div>
+
+  <form class="form__container">
+
+    <div>
+        <label class="label" for="nombreCompleto">Nombre completo <span class="decoration">*</span></label></label>
+        <input 
+        class="input" 
+        type="text" 
+        id="nombreCompleto" 
+        name="nombreCompleto"
+        placeholder="Nombre..."
+        required
+        >
+    </div>
+
+    <div class="form__container--secondrow">
+        <div class="form__container--email">
+            <label class="label" for="email">Email <span class="decoration">*</span></label></label>
+            <input 
+            class="input" 
+            type="email" 
+            id="email" 
+            name="email"
+            placeholder="nombre@apellidos.mail.com"
+            required
+            >
+        </div>
+        <div class="form__container--telf">
+            <label class="label" for="telefono">Teléfono</label>
+            <input 
+            class="input" 
+            type="tel" 
+            id="telefono" 
+            name="telefono"
+            placeholder="Ej: 123456789"
+            >
+        </div>
+    </div>
+
+    <div>
+        <label class="label" for="mensaje">Mensaje <span class="decoration">*</span></label></label>
+        <textarea 
+        class="input__textarea" 
+        id="mensaje" 
+        name="mensaje"
+        placeholder="¿Qué necesitas?"
+        required
+        rows="6">
+        
+    </textarea>
+
+ 
+      <input class="boton" type="submit" value="Enviar" />
+
+  </form>
+</main>
+
+    <footer class="footer">
+    <h4 class="footer__copyright">Sisters en código © 2024</h4>
+    <nav class="menu2">
+      <ul class="menu2__ul">
+        <li><a class="menu2__ul--item" href="index.html#equipo">EQUIPO</a></li>
+        <li><a class="menu2__ul--item" href="index.html#quienes-somos">QUIÉNES SOMOS</a></li>
+        <li><a class="menu2__ul--item" href="contact.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+    <div class="footer__logo">
+      <img src="./images/logo-adalab.png" alt="Logotipo de Adalab." />
+    </div>
+  </footer>
+</body>
+</html>
