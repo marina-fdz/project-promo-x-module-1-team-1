@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   height: fit-content;
+  position: relative;
 }
 
 .banner__image {
@@ -14,15 +15,27 @@
 
 .eslogan {
   background-color: $white;
-  font-weight: 700;
+  font-weight: 600;
   font-family: $fontFamily;
   padding: 14px 15px 16px;
-  position: relative;
+  position: absolute;
   font-size: 1.8rem;
-  width: 29rem;
-  height: 8rem;
-  top: 0;
+  line-height: 2.5rem;
+  width: 290px;
+  height: 100px;
+  bottom: 0;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 50%);
   z-index: 50;
+  @media (min-width: 768px) {
+    background-color: rgba(255,255,255, 0.8);
+    padding: 15px 30px;
+    width: 440px;
+    height: 80px;
+    transform: translate(-90%,0);
+  }
+  @media (min-width: 1200px) {
+      left: 138px;
+      transform: translate(0, 0);
+    }
 }

@@ -4,21 +4,23 @@
     flex-direction: column;
     align-items: center;
     border-top: 0.1rem solid $lightGrey;
-    padding-top: 3rem;
-    padding-bottom: 4.5rem;
-    gap: 2rem;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    gap: 20px;
     font-size: 1.4rem;
     @media (width > 768px){
       flex-direction: row;
       flex-wrap: wrap;
       align-items: flex-start;
-      padding-left: 4.5rem;
-      padding-right: 4.5rem;
+      padding-left: 45px;
+      padding-right: 45px;
+      padding-bottom: 14.5px;
       gap: 0;
     }
     @media (width > 1200px) {
-      padding-left: 13.8rem;
-      padding-right: 13.8rem;
+      padding-left: 138px;
+      padding-right: 138px;
+      
     }
 
     &__copyright {

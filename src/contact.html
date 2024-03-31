@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto - Sisters en código</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,72 +20,8 @@
     <link rel="stylesheet" href="./scss/main.scss">
 </head>
 <body>
-  <load src="./partials/header.html"/>
-
-   <main class="main">
-        <div class="main__image"></div>
-        <h1 class="main__titulo">CONTACTO</h1>
-        <div class="main__parrafos">
-            <p class="main__parrafos-1">Si quieres ponerte en contacto con las chicas de Sisters en código por favor rellena el siguiente formulario.</p>
-            <p class="main__parrafos-2">Todos los campos marcados con * son obligatorios.</p>
-        </div>
-
-        <form class="form__container">
-
-          <div>
-              <label class="label" for="nombreCompleto">Nombre completo<span class="decoration">*</span></label></label>
-              <input 
-              class="input" 
-              type="text" 
-              id="nombreCompleto" 
-              name="nombreCompleto"
-              placeholder="Nombre..."
-              required
-              >
-          </div>
-  
-          <div class="form__container--secondrow">
-              <div class="form__container--email">
-                  <label class="label" for="email">Email<span class="decoration">*</span></label></label>
-                  <input 
-                  class="input__mail" 
-                  type="email" 
-                  id="email" 
-                  name="email"
-                  placeholder="nombre@apellidos.mail.com"
-                  required
-                  >
-              </div>
-              <div class="form__container--telf">
-                  <label class="label" for="telefono">Teléfono<span class="decoration__tlf">*</span></label>
-                  <input 
-                  class="input" 
-                  type="tel" 
-                  id="telefono" 
-                  name="telefono"
-                  placeholder="Ej: 123456789"
-                  >
-              </div>
-          </div>
-  
-          <div>
-              <label class="label" for="mensaje">Mensaje<span class="decoration">*</span></label></label>
-              <textarea 
-              class="input__textarea" 
-              id="mensaje" 
-              name="mensaje"
-              placeholder="¿Qué necesitas?"
-              required
-              rows="6">
-              
-          </textarea>
-
-       
-            <input class="boton" type="submit" value="Enviar" />
-
-        </form>
-    </main>
-
+    <load src="./partials/header.html"/>
+    <load src="./partials/form.html"/>
     <load src="./partials/footer.html"/>
 </body>
 </html>

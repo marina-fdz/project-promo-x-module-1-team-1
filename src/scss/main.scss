@@ -1,37 +1,12 @@
-/*@import 'core/variables';
-@import 'core/reset';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/page';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'pages/index';
-*/
 @import "core/reset";
 @import "core/variables";
-
-// :root {
-//     --main-color: #099d8d;
-//     --secundary-color: #14d9c4;
-//     --Gris-oscuro: #54585a;
-//     --Gris-claro: #b8b8b9;
-//     --Gris-fondo: #f1f1f1;
-//     --Blanco: #ffffff;
-//     --Negro: #000000;
-//     --font-family: "Open Sans", sans-serif;
-//     --font-size-titulo: 5rem;
-//   }
-
-  
-  
-  @import "layout/header";
-  @import "layout/banner";
-  @import "layout/equipo";
-  @import "layout/fortalezas";
-  @import "layout/quienes-somos";
-  @import "layout/footer";
-  @import "layout/mediaqueries";
-  @import "layout/formulario";
+@import "layout/header";
+@import "layout/banner";
+@import "layout/equipo";
+@import "layout/fortalezas";
+@import "layout/quienes-somos";
+@import "layout/footer";
+@import "layout/formulario";
   
   
   
