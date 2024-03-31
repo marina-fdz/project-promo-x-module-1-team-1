@@ -145,7 +145,19 @@
         }
     }
 
-
+        .input-mail{
+            width: 100%;
+            height: 45px;
+            padding-left:15px;
+            border: 1px solid $lightGrey;
+            border-radius: 2px;
+            box-sizing: border-box;
+            margin-bottom: 13px;
+            &::placeholder{
+            color: $darkGrey;
+            font-family: $fontFamily;
+    }
+}
     
     
     @media (min-width: 1200px){
