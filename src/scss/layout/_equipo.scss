@@ -1,7 +1,13 @@
 .article__equipo {
   width: 100%;
   text-align: center;
-  padding: 70px 15px 30px;
+  padding: 90px 15px 30px;
+  @media (min-width: 768px) {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 45px;
+    
+}
 }
 
 .equipo-titulo {
@@ -10,7 +16,11 @@
   font-size: 2.4rem;
   font-weight: 500;
   padding-bottom: 2rem;
+  @media (min-width: 768px) {
+    color: $mainColor;
 }
+}
+
 .equipo-parrafo {
   color: #54585a;
   font-size: 1.6rem;

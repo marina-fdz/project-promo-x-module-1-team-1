@@ -1,32 +1,12 @@
 @import "../core/variables";
 
-@media (min-width: 768px) {
 
-    .eslogan {
-      background-color: white;
-      font-weight: 700;
-      opacity: 0.8;
-      padding: 15px 30px;
-      font-size: 1.8rem;
-      width: 440px;
-      /*preguntar por los ejes de la pantalla para centrar eslogan*/
-      transform: translate(-90%,0);
-    } 
 
-    .article__equipo {
-      padding-left: 45px;
-      padding-right: 45px;
-      padding-top: 30px;
-    }
+ 
 
-    .equipo-titulo {
-      color: $mainColor;
-      font-family: "Rubik";
-      font-size: 2.4rem;
-      font-weight: 500;
-      padding-bottom: 2rem;
-    }
-}
+  
+
+
 @media (min-width: 1200px) {
   .eslogan{
     left: 138px;
