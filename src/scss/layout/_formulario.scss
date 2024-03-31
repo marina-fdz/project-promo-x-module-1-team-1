@@ -19,39 +19,41 @@
     }
 
     &__titulo{
-        padding: 30px;
-        height: 45px;
-        margin: 0 15px 15.5px;
+        margin: 30px 15px 15px;
         font-family: $secondaryFont;
         font-size: 2.4rem;
         font-weight: 500;
         line-height: 1.88;
         text-align: center;
         color: $mainColor;
+        @media (min-width: 1200px){
+            margin-top: 45px;
+          }
     }
 
     &__parrafos{
         font-family: $fontFamily;
-        padding-left: 15px;
-        padding-right: 15px;
-        font-size: 16.6rem;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
         line-height: 1.5;
         text-align: center;
         color: $darkGrey;
+        width: 90%;
+        @media (min-width: 768px) { 
+            width:60%;
+        }
+        @media (min-width: 1200px) { 
+            width:55%;
+        }
+    
 
         &-1{
-            font-size: 1.6rem;
-            text-align: center;
-            line-height: 24px;
-            color: $darkGrey;
             padding-bottom: 30px;
+            
         }
 
         &-2{
             font-size: 1.2rem;
-            text-align: center;
-            line-height: 2.4rem;
-            color: $darkGrey;
             padding-bottom: 30px;
         }
 
@@ -63,6 +65,9 @@
         @media (min-width: 768px) { 
             width:60%;
         }
+        @media (min-width: 1200px) { 
+            width:55%;
+        }
     
     }
     
@@ -71,6 +76,7 @@
         width: 100%;
         font-family: $fontFamily;
         font-size: 1.4rem;
+        line-height: 2.4rem;
         color: $darkGrey;
         margin-bottom: 7px;
     }
@@ -80,37 +86,36 @@
         height: 45px;
         padding-left:15px;
         border: 1px solid $lightGrey;
+        border-radius: 2px;
         box-sizing: border-box;
-        margin: 7px 0 13px;
+        margin-bottom: 13px;
         &::placeholder{
             color: $lightGrey;
             font-family: $fontFamily;
-            opacity: 80%;
         }
-        &__mail{
+        
+        &__textarea{
             width: 100%;
             height: 45px;
             padding-left:15px;
             border: 1px solid $lightGrey;
             box-sizing: border-box;
-            margin: 7px 0 13px;
-            &::placeholder{
-                color: $darkGrey;
-                font-family: $fontFamily;
-            }
-        }
-        &__textarea{
-            width: 100%;
-            height: 20rem;
-            padding-left:15px;
-            border: 1px solid $lightGrey;
-            box-sizing: border-box;
-            margin: 7px 0 13px;
+            color: $darkGrey;
+            font-family: $fontFamily;
+            border-radius: 2px;
+            margin-bottom: 13px;
+            padding-top: 10px;
             &::placeholder{
                 color: $lightGrey;
-                opacity: 80%;
+                opacity: 0%;
             }
-             
+            @media (min-width: 768px) { 
+                height: 105px;
+                &::placeholder{
+                    
+                    opacity: 100%;
+                }
+            }
         }
     }
         
@@ -122,11 +127,6 @@
             color: $secondaryColor;
             font-family: $fontFamily;
 
-            &__tlf{
-                line-height: 2.4rem;
-                color: white;
-            }
-            
         }
         
         .boton{
@@ -157,16 +157,16 @@
         .form__container--secondrow{
             display: grid;
             grid-template-columns: 2fr 1fr;
-            gap: 2rem;
+            gap: 44px;
         }
     
         .form__container--email{
-            grid-column: 1/3;
+            grid-column: span 1;
         }
     
     
          .form__container--telf {
-            grid-column: 3/4;
+            grid-column: span 1;
          }
         
     
