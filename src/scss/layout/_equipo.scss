@@ -6,8 +6,11 @@
     padding-left: 45px;
     padding-right: 45px;
     padding-top: 45px;
-    
-}
+  }
+  @media (min-width: 1200px) {
+      padding-left: 138px;
+      padding-right: 138px;
+    }
 }
 
 .equipo-titulo {
