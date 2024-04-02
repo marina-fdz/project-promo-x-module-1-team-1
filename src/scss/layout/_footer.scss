@@ -63,6 +63,12 @@
       font-weight: 500;
       text-decoration: none;
       line-height: 2rem;
+      &:hover{
+        color: $mainColor;
+      }
+      &:active{
+        color: $secondaryColor;
+      }
       @media (width > 768px){
         line-height: 3rem;
       }
